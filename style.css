@@ -322,3 +322,32 @@ footer {
     #main-nav ul { gap: 15px; }
     .logo-text { display: none; } /* Cache le texte sur très petit écran */
 }
+
+/* Adaptation du HTML actuel au design d'origine */
+#accueil .hero-content { text-align: left; }
+#accueil .hero-description { text-align: left; max-width: 620px; }
+#accueil .school-info { text-align: left; }
+#accueil .hero-btns { align-items: center; }
+#accueil .btn { width: auto; min-width: 0; height: auto; }
+#accueil .btn-secondary { margin-left: 0; }
+
+#apropos .about-grid { display:grid!important;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))!important;gap:25px!important; }
+.about-grid .skill-card { text-align:center; }
+
+.table-container { width:100%; overflow-x:auto; }
+.synthese-table { width:100%; border-collapse:collapse; background:#fff; }
+.synthese-table th,.synthese-table td { padding:14px; border-bottom:1px solid #e2e8f0; text-align:left; vertical-align:middle; }
+.synthese-table th { background:#1e293b; color:#fff; }
+.badge { display:inline-block; padding:5px 9px; border-radius:999px; font-weight:600; }
+
+@media (min-width:993px){
+  #accueil .hero-wrapper{display:flex;align-items:center;justify-content:space-between;gap:50px}
+  #accueil .hero-image{flex:1}
+  #accueil .hero-content{flex:1.2}
+  #accueil .hero-content h1{font-size:3.5rem}
+  #accueil .hero-btns{display:flex;flex-direction:row;gap:15px;justify-content:flex-start}
+}
+@media(max-width:992px){
+ #accueil .hero-content,#accueil .hero-description,#accueil .school-info{text-align:center}
+ #accueil .hero-btns{display:flex;justify-content:center;flex-wrap:wrap}
+}
