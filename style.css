@@ -134,3 +134,178 @@ a.whatsapp-float.whatsapp-visible {
     pointer-events: auto !important;
     transform: scale(1);
 }
+
+
+/* Responsive mobile : affichage plein écran et navigation propre */
+@media (max-width: 600px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .header-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 12px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo-area {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-text {
+        display: inline;
+    }
+
+    #main-nav {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    #main-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    #main-nav ul {
+        width: max-content;
+        min-width: 100%;
+        gap: 18px;
+        padding: 0 4px 5px;
+        justify-content: flex-start;
+    }
+
+    #main-nav a {
+        white-space: nowrap;
+        font-size: 0.82rem;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding: 42px 0 55px;
+    }
+
+    .hero-wrapper {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        text-align: center;
+    }
+
+    .hero-image,
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+    }
+
+    .hero-image {
+        justify-content: center;
+    }
+
+    .profile-pic {
+        width: min(64vw, 250px);
+        height: min(64vw, 250px);
+    }
+
+    .hero-content {
+        padding: 0 4px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2rem, 9vw, 2.55rem);
+        line-height: 1.08;
+        margin-bottom: 16px;
+    }
+
+    .role {
+        font-size: 1rem;
+        margin-bottom: 16px;
+    }
+
+    .school-info {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .hero-description {
+        width: 100%;
+        max-width: 430px;
+        margin: 0 auto 28px;
+        font-size: 0.98rem;
+        text-align: center;
+    }
+
+    .hero-btns {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn-secondary {
+        margin-left: 0;
+    }
+
+    .page-content {
+        width: 100%;
+        padding: 55px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .skills-grid,
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+
+    .skill-card {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .table-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+}
