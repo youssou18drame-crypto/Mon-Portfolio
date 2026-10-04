@@ -78,3 +78,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Portfolio chargé avec succès !");
 });
+
+/* Afficher WhatsApp uniquement lorsque la section Contact est visible */
+document.addEventListener('DOMContentLoaded', () => {
+    const contactSection = document.getElementById('contact');
+    const whatsappButton = document.querySelector('.whatsapp-float');
+    if (!contactSection || !whatsappButton) return;
+
+    const updateWhatsAppVisibility = () => {
+        const rect = contactSection.getBoundingClientRect();
+        const visible = rect.top < window.innerHeight && rect.bottom > 0;
+        whatsappButton.classList.toggle('whatsapp-visible', visible);
+    };
+
+    updateWhatsAppVisibility();
+    window.addEventListener('scroll', updateWhatsAppVisibility, { passive: true });
+    window.addEventListener('resize', updateWhatsAppVisibility);
+});
