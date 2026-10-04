@@ -322,3 +322,54 @@ footer {
     #main-nav ul { gap: 15px; }
     .logo-text { display: none; } /* Cache le texte sur très petit écran */
 }
+
+/* --- Correctifs portfolio complet --- */
+html { scroll-behavior: smooth; }
+.page-content { scroll-margin-top: 90px; }
+.table-container { width: 100%; overflow-x: auto; margin-top: 30px; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+.synthese-table { width: 100%; border-collapse: collapse; min-width: 850px; background: var(--white); }
+.synthese-table th, .synthese-table td { padding: 16px 14px; text-align: left; vertical-align: middle; border-bottom: 1px solid #e2e8f0; }
+.synthese-table th { background: var(--secondary-color); color: var(--white); font-size: .9rem; }
+.synthese-table tbody tr:hover { background: #f8fafc; }
+.badge { display: inline-block; padding: 6px 10px; border-radius: 999px; font-weight: 600; line-height: 1.2; }
+.skill-card h4 { margin: 8px 0 16px; color: var(--primary-color); }
+.skill-card ul, .timeline-content ul { padding-left: 20px; margin-top: 14px; }
+.skill-card li, .timeline-content li { margin-bottom: 8px; }
+.timeline-content h4 { margin-top: 18px; margin-bottom: 8px; }
+.contact-grid, .about-grid { width: 100%; }
+.contact-info a { overflow-wrap: anywhere; }
+section { scroll-margin-top: 90px; }
+
+@media (max-width: 900px) {
+  .header-container { flex-direction: column; gap: 14px; }
+  #main-nav { width: 100%; overflow-x: auto; padding-bottom: 5px; }
+  #main-nav ul { width: max-content; min-width: 100%; justify-content: center; gap: 18px; }
+  #main-nav a { white-space: nowrap; font-size: .9rem; }
+  .hero-section { padding: 55px 0; }
+}
+
+@media (max-width: 600px) {
+  .container { padding: 0 16px; }
+  header { position: sticky; }
+  .header-container { align-items: stretch; }
+  .logo-area { justify-content: center; }
+  #main-nav ul { justify-content: flex-start; gap: 18px; }
+  .hero-section { padding: 40px 0; }
+  .hero-wrapper { gap: 28px; }
+  .profile-pic { width: 220px; height: 220px; }
+  .hero-content h1 { font-size: 2rem; }
+  .hero-btns { flex-direction: column; align-items: stretch; }
+  .btn { text-align: center; }
+  .btn-secondary { margin-left: 0; }
+  .page-content { padding: 45px 16px; }
+  .section-title { font-size: 2rem; margin-bottom: 28px; }
+  .skills-grid { grid-template-columns: 1fr; }
+  .skill-card { padding: 25px 20px; }
+  .timeline-item { padding-right: 0; padding-left: 55px; }
+  .timeline::after { left: 18px; }
+  .timeline-item::after { left: 7px; }
+  .contact-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
+  .contact-info, .contact-form-container { padding: 22px !important; }
+  .whatsapp-float { width: 52px !important; height: 52px !important; right: 16px !important; bottom: 16px !important; }
+  .whatsapp-float img { width: 30px !important; height: 30px !important; }
+}
