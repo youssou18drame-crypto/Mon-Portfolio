@@ -309,3 +309,17 @@ a.whatsapp-float.whatsapp-visible {
         width: 100%;
     }
 }
+
+
+/* Mobile : garder la navigation accessible pendant le défilement */
+@media (max-width: 600px) {
+    html {
+        scroll-padding-top: 115px;
+    }
+
+    header {
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 2000 !important;
+    }
+}
