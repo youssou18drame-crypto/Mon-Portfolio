@@ -75,3 +75,33 @@ footer { padding:40px 0; background-color:var(--white); border-top:1px solid #e2
  #main-nav ul { gap:15px; }
  .logo-text { display:none; }
 }
+
+/* Correction isolée du bouton WhatsApp */
+a.whatsapp-float {
+    position: fixed !important;
+    right: 25px !important;
+    bottom: 25px !important;
+    width: 60px !important;
+    height: 60px !important;
+    min-width: 60px !important;
+    min-height: 60px !important;
+    max-width: 60px !important;
+    max-height: 60px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    z-index: 1000 !important;
+}
+a.whatsapp-float img {
+    display: block !important;
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
+    min-height: 35px !important;
+    max-width: 35px !important;
+    max-height: 35px !important;
+    object-fit: contain !important;
+}
