@@ -105,3 +105,32 @@ a.whatsapp-float img {
     max-height: 35px !important;
     object-fit: contain !important;
 }
+
+
+/* WhatsApp : taille confortable et visible uniquement dans la zone Contact */
+a.whatsapp-float {
+    width: 72px !important;
+    height: 72px !important;
+    min-width: 72px !important;
+    min-height: 72px !important;
+    max-width: 72px !important;
+    max-height: 72px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: scale(0.9);
+}
+a.whatsapp-float img {
+    width: 43px !important;
+    height: 43px !important;
+    min-width: 43px !important;
+    min-height: 43px !important;
+    max-width: 43px !important;
+    max-height: 43px !important;
+}
+a.whatsapp-float.whatsapp-visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: scale(1);
+}
