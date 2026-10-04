@@ -52,3 +52,44 @@ header { padding: 14px 0 !important; min-height: 0 !important; height: auto !imp
   header { position:relative !important; }
   #main-nav ul { justify-content:flex-start !important; }
 }
+
+
+/* PRIORITE ABSOLUE - layout stable */
+body>header{display:block!important;width:100%!important;padding:12px 0!important;margin:0!important;min-height:unset!important;height:auto!important}
+body>header>.header-container{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;width:min(1200px,calc(100% - 40px))!important;max-width:1200px!important;margin:0 auto!important;padding:0!important;min-height:unset!important;height:auto!important}
+body>header .logo-area{display:flex!important;align-items:center!important;gap:10px!important;width:auto!important;margin:0!important;position:static!important}
+body>header #main-nav{display:block!important;width:auto!important;margin:0!important;position:static!important;overflow:visible!important}
+body>header #main-nav ul{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-end!important;gap:20px!important;width:auto!important;min-width:0!important;margin:0!important;padding:0!important;position:static!important}
+body>header #main-nav li{display:block!important;width:auto!important;margin:0!important;padding:0!important;position:static!important}
+body>header #main-nav a{display:block!important;width:auto!important;margin:0!important;padding:5px 0!important;font-size:.86rem!important;line-height:1.25!important;white-space:nowrap!important;position:relative!important}
+
+main>#accueil.hero-section{display:block!important;width:100%!important;padding:70px 0!important;margin:0!important;min-height:unset!important;height:auto!important}
+main>#accueil>.hero-wrapper{display:grid!important;grid-template-columns:minmax(300px,42%) minmax(0,58%)!important;align-items:center!important;gap:55px!important;width:min(1100px,calc(100% - 40px))!important;max-width:1100px!important;margin:0 auto!important;padding:0!important;min-height:unset!important;height:auto!important}
+main>#accueil .hero-image{display:flex!important;align-items:center!important;justify-content:center!important;width:auto!important;margin:0!important;position:static!important}
+main>#accueil .photo-container{display:block!important;width:auto!important;height:auto!important;margin:0!important;position:static!important}
+main>#accueil .profile-pic{display:block!important;width:330px!important;height:330px!important;max-width:100%!important;border-radius:50%!important;object-fit:cover!important;margin:0 auto!important;position:static!important}
+main>#accueil .hero-content{display:block!important;width:auto!important;min-width:0!important;margin:0!important;padding:0!important;position:static!important;text-align:left!important}
+main>#accueil .hero-content h1{display:block!important;font-size:3rem!important;line-height:1.12!important;margin:0 0 18px!important;max-width:100%!important;word-break:normal!important}
+main>#accueil .hero-content h1 .highlight{display:inline!important}
+main>#accueil .role{margin:0 0 15px!important}
+main>#accueil .hero-description{margin:0 0 28px!important}
+
+@media(max-width:1050px) and (min-width:701px){
+ body>header>.header-container{width:calc(100% - 30px)!important}
+ body>header #main-nav ul{gap:12px!important}
+ body>header #main-nav a{font-size:.76rem!important}
+ main>#accueil .hero-content h1{font-size:2.5rem!important}
+ main>#accueil .profile-pic{width:280px!important;height:280px!important}
+}
+@media(max-width:700px){
+ body>header>.header-container{flex-direction:column!important;width:calc(100% - 30px)!important;gap:12px!important}
+ body>header #main-nav{width:100%!important;overflow-x:auto!important}
+ body>header #main-nav ul{justify-content:flex-start!important;width:max-content!important;gap:18px!important}
+ body>header #main-nav a{font-size:.82rem!important}
+ main>#accueil.hero-section{padding:40px 0!important}
+ main>#accueil>.hero-wrapper{display:flex!important;flex-direction:column!important;width:calc(100% - 30px)!important;gap:28px!important}
+ main>#accueil .profile-pic{width:210px!important;height:210px!important}
+ main>#accueil .hero-content{text-align:center!important}
+ main>#accueil .hero-content h1{font-size:2rem!important}
+ main>#accueil .hero-btns{justify-content:center!important}
+}
