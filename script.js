@@ -114,3 +114,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', updateWhatsAppVisibility, { passive: true });
     window.addEventListener('resize', updateWhatsAppVisibility);
 });
+
+
+/* PWA : enregistrement du service worker pour l'accès hors ligne */
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js")
+            .catch(error => console.error("Service Worker :", error));
+    });
+}
