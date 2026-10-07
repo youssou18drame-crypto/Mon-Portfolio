@@ -1170,28 +1170,44 @@ const token = jwt.sign(
                             </div>
 
                             <div class="skill-card" style="margin-top: 18px;">
-                                <h4>5. Tests et maintenance réalisés</h4>
-                                <ul>
-                                    <li>Test de l'inscription avec contrôle des champs obligatoires.</li>
-                                    <li>Test de la connexion et récupération du token JWT.</li>
-                                    <li>Test de la consultation et de l'ajout d'avis.</li>
-                                    <li>Test des routes de modification et de suppression des avis.</li>
-                                    <li>Correction de la communication front/back avec NEXT_PUBLIC_API_URL.</li>
-                                    <li>Correction de la connexion Prisma à PostgreSQL lors du déploiement.</li>
-                                    <li>Déploiement et tests du front-end et de l'API sur Vercel.</li>
+                                <h4>5. Tests fonctionnels validés en production</h4>
+                                <p>
+                                    Les fonctionnalités ci-dessous ont été testées sur la version
+                                    déployée de MDS Avis le 7 octobre 2026.
+                                </p>
+                                <ul style="margin-top:12px;">
+                                    <li><strong>Inscription :</strong> création d'un nouveau compte avec message de confirmation.</li>
+                                    <li><strong>Connexion :</strong> authentification réussie et accès à l'espace connecté.</li>
+                                    <li><strong>GET /avis :</strong> récupération et affichage des avis enregistrés.</li>
+                                    <li><strong>POST /add/avis :</strong> publication d'un nouvel avis puis affichage dans la liste.</li>
+                                    <li><strong>PUT /avis/:id :</strong> modification de la description d'un avis existant sans le supprimer.</li>
+                                    <li><strong>DELETE /avis/:id :</strong> suppression ciblée d'un avis de test sans affecter les autres avis.</li>
+                                    <li><strong>Déploiement :</strong> front-end et API accessibles en production sur Vercel.</li>
                                 </ul>
+                                <p style="margin-top:12px;">
+                                    <strong>Résultat :</strong> le cycle CRUD des avis
+                                    (lecture, création, modification et suppression) est fonctionnel
+                                    sur la version testée.
+                                </p>
                             </div>
 
                             <div class="skill-card" style="margin-top: 18px;">
-                                <h4>6. Captures d'écran</h4>
+                                <h4>6. Preuves visuelles des tests</h4>
                                 <p>
-                                    Les captures définitives seront ajoutées ici pour montrer
-                                    visuellement la page d'accueil, l'inscription, la connexion,
-                                    la page des avis et le fonctionnement de l'application déployée.
+                                    Des captures ont été réalisées pendant les tests de la version
+                                    en production. Elles montrent les étapes suivantes :
                                 </p>
-                                <p style="margin-top:10px;">
-                                    <strong>À compléter :</strong> captures lisibles et légendées
-                                    de la version finale de MDS Avis.
+                                <ol style="margin-top:12px;padding-left:22px;">
+                                    <li><strong>Création de compte :</strong> message « Compte créé avec succès ».</li>
+                                    <li><strong>Connexion :</strong> accès à la page « Les derniers avis » après authentification.</li>
+                                    <li><strong>Ajout :</strong> apparition d'un avis enregistré dans la liste.</li>
+                                    <li><strong>Modification :</strong> bouton « Modifier », fenêtre de saisie puis changement du texte de l'avis.</li>
+                                    <li><strong>Suppression :</strong> fenêtre de confirmation puis disparition uniquement de l'avis sélectionné.</li>
+                                </ol>
+                                <p style="margin-top:12px;color:var(--text-light);">
+                                    Ces captures servent de preuves du fonctionnement réel de
+                                    l'application et complètent les extraits de code et le schéma
+                                    de base de données présentés ci-dessus.
                                 </p>
                             </div>
 
