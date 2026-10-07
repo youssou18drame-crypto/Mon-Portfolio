@@ -609,3 +609,251 @@ a.whatsapp-float.whatsapp-visible {
         height: 52px;
     }
 }
+
+
+/* =========================================
+   THÈME SOMBRE PROFESSIONNEL — 2026
+   ========================================= */
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #f8fafc;
+    --accent-color: #60a5fa;
+    --background-light: #07111f;
+    --text-color: #dbe7f5;
+    --text-light: #94a3b8;
+    --white: #0d1a2b;
+    --dark-panel: #0d1a2b;
+    --dark-panel-2: #101f33;
+    --dark-border: rgba(96, 165, 250, 0.18);
+}
+
+body {
+    background:
+        radial-gradient(circle at 85% 8%, rgba(37, 99, 235, 0.16), transparent 30%),
+        radial-gradient(circle at 12% 25%, rgba(59, 130, 246, 0.08), transparent 28%),
+        #07111f;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+    color: #f8fafc;
+}
+
+header {
+    background: rgba(7, 17, 31, 0.94);
+    border-bottom: 1px solid var(--dark-border);
+    box-shadow: 0 8px 30px rgba(0,0,0,.22);
+    backdrop-filter: blur(14px);
+}
+
+.logo-text,
+#main-nav a {
+    color: #dbe7f5;
+}
+
+#main-nav a:hover,
+#main-nav a.active {
+    color: var(--accent-color);
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    background:
+        radial-gradient(circle at 25% 50%, rgba(59,130,246,.20), transparent 28%),
+        radial-gradient(circle at 88% 18%, rgba(37,99,235,.18), transparent 32%),
+        linear-gradient(135deg, #081426 0%, #07111f 48%, #0a1a31 100%);
+}
+
+.hero-section::before {
+    content: "</>";
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    font-size: clamp(8rem, 18vw, 18rem);
+    font-weight: 700;
+    color: rgba(59,130,246,.035);
+    transform: rotate(-8deg);
+    pointer-events: none;
+}
+
+.hero-wrapper {
+    position: relative;
+    z-index: 1;
+    gap: 70px;
+}
+
+.photo-container {
+    position: relative;
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #38bdf8, #2563eb, #8b5cf6);
+    box-shadow: 0 0 0 1px rgba(96,165,250,.35), 0 0 55px rgba(37,99,235,.30);
+}
+
+.profile-pic {
+    border: 5px solid #0b1728;
+    box-shadow: none;
+}
+
+.hero-content h1 {
+    color: #f8fafc;
+    text-shadow: 0 8px 30px rgba(0,0,0,.22);
+}
+
+.hero-content .highlight {
+    display: inline;
+    color: #4f8cff;
+}
+
+.role {
+    color: #b9c7dc;
+}
+
+.school-info {
+    font-weight: 600;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    color: #b6c3d6;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(37,99,235,.25);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: #60a5fa;
+    color: #93c5fd;
+}
+
+.btn-secondary {
+    border-color: #3b82f6;
+    color: #e2e8f0;
+}
+
+.btn-secondary:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+.page-content,
+#experiences.page-content,
+.veille-section {
+    background: transparent !important;
+}
+
+.page-content:nth-of-type(even) {
+    background: rgba(13, 26, 43, .28) !important;
+}
+
+.section-title {
+    color: #f8fafc;
+}
+
+.skill-card,
+.tech-item,
+.block-card,
+.timeline-content,
+.veille-intro,
+.veille-method,
+.veille-card,
+.veille-bilan > div,
+.veille-conclusion,
+.contact-form,
+.contact-info,
+.table-container {
+    background: linear-gradient(145deg, rgba(16,31,51,.96), rgba(10,22,38,.96)) !important;
+    border: 1px solid var(--dark-border) !important;
+    box-shadow: 0 12px 34px rgba(0,0,0,.22) !important;
+    color: #dbe7f5;
+}
+
+.tech-item:hover,
+.block-card:hover,
+.veille-card:hover {
+    border-color: rgba(96,165,250,.45) !important;
+    box-shadow: 0 16px 38px rgba(0,0,0,.30), 0 0 25px rgba(37,99,235,.10) !important;
+}
+
+.tech-item span,
+.block-card strong,
+.timeline-content strong,
+.veille-card strong {
+    color: #f8fafc;
+}
+
+.competence-tags span {
+    background: rgba(59,130,246,.12);
+    border: 1px solid rgba(96,165,250,.18);
+    color: #bfdbfe;
+}
+
+.block-number {
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+    box-shadow: 0 8px 20px rgba(37,99,235,.25);
+}
+
+.timeline-date,
+.location,
+.skills-intro,
+.block-card p,
+.veille-date,
+.veille-sources,
+figcaption {
+    color: #94a3b8 !important;
+}
+
+.veille-problematique {
+    background: rgba(59,130,246,.08);
+    border-left-color: #3b82f6;
+}
+
+.veille-link,
+a {
+    color: #60a5fa;
+}
+
+input,
+textarea {
+    background: #091728 !important;
+    border: 1px solid rgba(148,163,184,.22) !important;
+    color: #f8fafc !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #718096;
+}
+
+footer {
+    background: #050c16;
+    color: #94a3b8;
+    border-top: 1px solid var(--dark-border);
+}
+
+@media (max-width: 600px) {
+    header {
+        background: rgba(7,17,31,.97) !important;
+    }
+
+    .hero-section {
+        min-height: auto;
+    }
+
+    .hero-wrapper {
+        gap: 34px;
+    }
+
+    .photo-container {
+        padding: 7px;
+    }
+}
