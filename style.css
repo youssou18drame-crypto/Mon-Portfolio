@@ -857,3 +857,17 @@ footer {
         padding: 7px;
     }
 }
+
+
+/* Tableau de synthèse — survol adapté au thème sombre */
+.synthese-table tbody tr:hover {
+    background-color: rgba(59, 130, 246, 0.10) !important;
+}
+
+.synthese-table tbody tr:hover td {
+    color: #f1f5f9 !important;
+}
+
+.synthese-table tbody tr:hover strong {
+    color: #ffffff !important;
+}
