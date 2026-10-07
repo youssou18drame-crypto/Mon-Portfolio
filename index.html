@@ -1111,18 +1111,14 @@
                                     💼
                                 </span>
 
-                                <a
-                                    href="https://www.linkedin.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                <span
                                     style="
-                                        color: var(--primary-color);
-                                        text-decoration: none;
+                                        color: var(--text-color);
                                         font-weight: 600;
                                     "
                                 >
-                                    Mon Profil LinkedIn
-                                </a>
+                                    LinkedIn — profil à ajouter
+                                </span>
 
                             </div>
 
@@ -1199,6 +1195,20 @@
                                 value="table"
                             >
 
+                            <input
+                                type="hidden"
+                                name="_next"
+                                value="https://youssou-drame.vercel.app/#contact"
+                            >
+
+                            <input
+                                type="text"
+                                name="_honey"
+                                tabindex="-1"
+                                autocomplete="off"
+                                style="display:none"
+                            >
+
 
                             <!-- NOM -->
 
@@ -1220,6 +1230,7 @@
                                     type="text"
                                     id="nom"
                                     name="name"
+                                    autocomplete="name"
                                     required
                                     placeholder="Ex: Jean Dupont"
                                     style="
@@ -1254,6 +1265,7 @@
                                     type="email"
                                     id="email"
                                     name="email"
+                                    autocomplete="email"
                                     required
                                     placeholder="Ex: jean.dupont@example.com"
                                     style="
@@ -1371,6 +1383,7 @@
         target="_blank"
         rel="noopener noreferrer"
         title="Me contacter sur WhatsApp"
+        aria-label="Me contacter sur WhatsApp"
     >
 
         <img
