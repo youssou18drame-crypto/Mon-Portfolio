@@ -468,3 +468,144 @@ a.whatsapp-float.whatsapp-visible {
         padding: 20px;
     }
 }
+
+
+/* =========================================
+   COMPÉTENCES — PRÉSENTATION PROFESSIONNELLE
+   ========================================= */
+.skills-intro {
+    max-width: 760px;
+    margin: -10px auto 35px;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 45px;
+}
+
+.tech-item {
+    min-height: 125px;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.10);
+}
+
+.tech-item img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.tech-item span {
+    font-weight: 600;
+    font-size: 0.92rem;
+}
+
+.blocks-grid {
+    display: grid;
+    gap: 18px;
+}
+
+.block-card {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 22px;
+    align-items: start;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.block-number {
+    width: 62px;
+    height: 62px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.block-card h3 {
+    margin: 2px 0 14px;
+}
+
+.block-card p {
+    margin: 14px 0 0;
+    color: var(--text-light);
+}
+
+.competence-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.competence-tags span {
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .tech-stack {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .tech-stack {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .tech-item {
+        min-height: 105px;
+        padding: 14px 8px;
+    }
+
+    .tech-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tech-item span {
+        font-size: 0.78rem;
+    }
+
+    .block-card {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .block-number {
+        width: 52px;
+        height: 52px;
+    }
+}
