@@ -906,3 +906,34 @@ footer {
 .contact-form button {
     color: #ffffff !important;
 }
+
+
+/* Contact — correction du conteneur réel du formulaire */
+#contact .contact-form-container {
+    background: linear-gradient(145deg, #101f33, #0b1829) !important;
+    border: 1px solid rgba(96, 165, 250, 0.18) !important;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.22) !important;
+}
+
+#contact .contact-form-container label {
+    color: #e2e8f0 !important;
+}
+
+#contact .contact-form-container input,
+#contact .contact-form-container textarea {
+    background: #081525 !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(96, 165, 250, 0.25) !important;
+}
+
+#contact .contact-form-container input:focus,
+#contact .contact-form-container textarea:focus {
+    border-color: #60a5fa !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+#contact .contact-form-container input::placeholder,
+#contact .contact-form-container textarea::placeholder {
+    color: #71839b !important;
+}
