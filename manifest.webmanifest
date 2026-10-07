@@ -1,0 +1,19 @@
+{
+  "name": "Portfolio - El Hadji Youssou Drame",
+  "short_name": "Portfolio EYD",
+  "description": "Portfolio BTS SIO option SLAM d'El Hadji Youssou Drame",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "photo-profil.jpeg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
