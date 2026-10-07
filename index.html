@@ -1199,12 +1199,14 @@ const token = jwt.sign(
                                 </p>
                                 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:20px;">
                                     <figure style="margin:0;">
-                                        <a href="Capture d’écran (543).png" target="_blank" rel="noopener noreferrer" title="Cliquez pour voir la capture en grand">
-                                            <img src="Capture d’écran (543).png"
+                                        <button type="button" onclick="ouvrirPreuve('Capture d’écran (543).png')" title="Cliquez pour voir la capture en grand" style="display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;">
+                                            <span style="display:block;width:100%;aspect-ratio:16/8.15;overflow:hidden;border-radius:10px;border:1px solid #e2e8f0;">
+                                                <img src="Capture d’écran (543).png"
                                                  alt="Preuve de création de compte MDS Avis"
                                                  loading="lazy"
-                                                 style="width:100%;border-radius:10px;border:1px solid #e2e8f0;cursor:zoom-in;">
-                                        </a>
+                                                 style="display:block;width:100%;transform:translateY(-9.2%);">
+                                            </span>
+                                        </button>
                                         <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
                                             <strong>Preuve 1 — Inscription :</strong>
                                             création réussie d'un compte étudiant avec le message
@@ -1213,12 +1215,14 @@ const token = jwt.sign(
                                     </figure>
 
                                     <figure style="margin:0;">
-                                        <a href="Capture d’écran (549).png" target="_blank" rel="noopener noreferrer" title="Cliquez pour voir la capture en grand">
-                                            <img src="Capture d’écran (549).png"
+                                        <button type="button" onclick="ouvrirPreuve('Capture d’écran (549).png')" title="Cliquez pour voir la capture en grand" style="display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;">
+                                            <span style="display:block;width:100%;aspect-ratio:16/8.15;overflow:hidden;border-radius:10px;border:1px solid #e2e8f0;">
+                                                <img src="Capture d’écran (549).png"
                                                  alt="Preuve du bouton Modifier MDS Avis"
                                                  loading="lazy"
-                                                 style="width:100%;border-radius:10px;border:1px solid #e2e8f0;cursor:zoom-in;">
-                                        </a>
+                                                 style="display:block;width:100%;transform:translateY(-9.2%);">
+                                            </span>
+                                        </button>
                                         <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
                                             <strong>Preuve 2 — Modification :</strong>
                                             ouverture de la fenêtre de modification d'un avis existant
@@ -1227,12 +1231,14 @@ const token = jwt.sign(
                                     </figure>
 
                                     <figure style="margin:0;">
-                                        <a href="Capture d’écran (552).png" target="_blank" rel="noopener noreferrer" title="Cliquez pour voir la capture en grand">
-                                            <img src="Capture d’écran (552).png"
+                                        <button type="button" onclick="ouvrirPreuve('Capture d’écran (552).png')" title="Cliquez pour voir la capture en grand" style="display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;">
+                                            <span style="display:block;width:100%;aspect-ratio:16/8.15;overflow:hidden;border-radius:10px;border:1px solid #e2e8f0;">
+                                                <img src="Capture d’écran (552).png"
                                                  alt="Preuve de suppression ciblée MDS Avis"
                                                  loading="lazy"
-                                                 style="width:100%;border-radius:10px;border:1px solid #e2e8f0;cursor:zoom-in;">
-                                        </a>
+                                                 style="display:block;width:100%;transform:translateY(-9.2%);">
+                                            </span>
+                                        </button>
                                         <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
                                             <strong>Preuve 3 — Lecture et suppression :</strong>
                                             après suppression d'un avis de test, les autres avis restent
@@ -2048,5 +2054,30 @@ const token = jwt.sign(
 </style>
 
 <script src="script.js?v=3"></script>
+
+    <div id="preuve-modal" onclick="fermerPreuve(event)" style="display:none;position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.92);align-items:center;justify-content:center;padding:20px;">
+        <button type="button" onclick="fermerPreuve()" aria-label="Fermer" style="position:absolute;top:18px;right:24px;border:0;background:none;color:white;font-size:38px;cursor:pointer;">×</button>
+        <div style="width:min(96vw,1600px);max-height:92vh;overflow:hidden;">
+            <img id="preuve-modal-img" src="" alt="Capture MDS Avis agrandie" style="display:block;width:100%;transform:translateY(-9.2%);">
+        </div>
+    </div>
+    <script>
+        function ouvrirPreuve(src) {
+            const modal = document.getElementById('preuve-modal');
+            document.getElementById('preuve-modal-img').src = src;
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+        function fermerPreuve(event) {
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('preuve-modal').style.display = 'none';
+            document.getElementById('preuve-modal-img').src = '';
+            document.body.style.overflow = '';
+        }
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') fermerPreuve();
+        });
+    </script>
+
 </body>
 </html>
