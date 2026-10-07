@@ -954,3 +954,10 @@ a.whatsapp-float:hover {
 a.whatsapp-float img {
     filter: grayscale(1) brightness(0) invert(1) !important;
 }
+
+
+/* WhatsApp — conserver le pictogramme téléphone dans la bulle */
+a.whatsapp-float img {
+    filter: brightness(0) invert(1) !important;
+    opacity: 1 !important;
+}
