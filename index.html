@@ -1076,6 +1076,126 @@
                             </ul>
 
 
+                            <!-- PREUVES MDS AVIS -->
+
+                            <h4 style="margin-top: 30px;">
+                                📎 Preuves et productions
+                            </h4>
+
+                            <p>
+                                Cette partie regroupe les éléments techniques déjà disponibles
+                                permettant de justifier le travail réalisé sur MDS Avis.
+                            </p>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>1. Contexte et besoin</h4>
+                                <p>
+                                    Projet scolaire de première année de BTS SIO option SLAM à
+                                    MyDigitalSchool. Le besoin était de réaliser une application web
+                                    responsive permettant à un utilisateur de créer un compte, se
+                                    connecter, consulter et gérer des avis, avec une séparation entre
+                                    l'interface utilisateur et l'API back-end.
+                                </p>
+                            </div>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>2. Architecture / schéma technique</h4>
+                                <p>
+                                    L'application est organisée en trois parties :
+                                    <strong>Front-end Next.js / React</strong> →
+                                    <strong>API REST Node.js / Express</strong> →
+                                    <strong>base PostgreSQL gérée avec Prisma</strong>.
+                                    Le front communique avec l'API par des requêtes HTTP.
+                                </p>
+                                <p style="margin-top:10px;">
+                                    Routes principales de l'API :
+                                    GET /avis, GET /avis/:id, POST /register, POST /login,
+                                    POST /add/avis, PUT /avis/:id et DELETE /avis/:id.
+                                </p>
+                            </div>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>3. Base de données</h4>
+                                <p>
+                                    Prisma est configuré avec PostgreSQL. Deux modèles sont présents :
+                                    <strong>User</strong> pour les comptes et
+                                    <strong>Review</strong> pour les avis.
+                                </p>
+                                <pre style="overflow:auto;margin-top:12px;padding:15px;background:#0f172a;color:#e2e8f0;border-radius:8px;"><code>model User {
+  id           Int    @id @default(autoincrement())
+  email        String @unique
+  passwordHash String
+}
+
+model Review {
+  id          Int      @id @default(autoincrement())
+  name        String
+  date        DateTime
+  rating      Int
+  description String
+  authorized  Boolean  @default(false)
+}</code></pre>
+                            </div>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>4. Extraits de code</h4>
+                                <p>
+                                    L'API utilise Prisma pour manipuler les avis. Exemple de création
+                                    d'un avis :
+                                </p>
+                                <pre style="overflow:auto;margin-top:12px;padding:15px;background:#0f172a;color:#e2e8f0;border-radius:8px;"><code>const newReview = await prisma.review.create({
+  data: {
+    name: name || title || "Anonyme",
+    date: date ? new Date(date) : new Date(),
+    rating: Number(rating) || 5,
+    description: description,
+    authorized: true
+  }
+})</code></pre>
+
+                                <p style="margin-top:15px;">
+                                    Pour la connexion, le mot de passe est vérifié avec Argon2 puis
+                                    un jeton JWT valable 2 heures est généré.
+                                </p>
+                                <pre style="overflow:auto;margin-top:12px;padding:15px;background:#0f172a;color:#e2e8f0;border-radius:8px;"><code>const isValid = await argon2.verifyPassword(
+  password,
+  user.passwordHash
+)
+
+const token = jwt.sign(
+  { sub: user.id },
+  process.env.JWT_SECRET,
+  { expiresIn: '2h' }
+)</code></pre>
+                            </div>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>5. Tests et maintenance réalisés</h4>
+                                <ul>
+                                    <li>Test de l'inscription avec contrôle des champs obligatoires.</li>
+                                    <li>Test de la connexion et récupération du token JWT.</li>
+                                    <li>Test de la consultation et de l'ajout d'avis.</li>
+                                    <li>Test des routes de modification et de suppression des avis.</li>
+                                    <li>Correction de la communication front/back avec NEXT_PUBLIC_API_URL.</li>
+                                    <li>Correction de la connexion Prisma à PostgreSQL lors du déploiement.</li>
+                                    <li>Déploiement et tests du front-end et de l'API sur Vercel.</li>
+                                </ul>
+                            </div>
+
+                            <div class="skill-card" style="margin-top: 18px;">
+                                <h4>6. Captures d'écran</h4>
+                                <p>
+                                    Les captures définitives seront ajoutées ici pour montrer
+                                    visuellement la page d'accueil, l'inscription, la connexion,
+                                    la page des avis et le fonctionnement de l'application déployée.
+                                </p>
+                                <p style="margin-top:10px;">
+                                    <strong>À compléter :</strong> captures lisibles et légendées
+                                    de la version finale de MDS Avis.
+                                </p>
+                            </div>
+
+
                             <!-- GITHUB -->
 
                             <h4 style="margin-top: 25px;">
