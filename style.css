@@ -1146,3 +1146,23 @@ a.whatsapp-float img {
         padding: 20px;
     }
 }
+
+
+/* BTS SIO — mise en page plus large sur ordinateur */
+@media (min-width: 1100px) {
+    #bts-sio .container {
+        width: min(92%, 1380px);
+        max-width: 1380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bts-sio .bts-overview {
+        grid-template-columns: minmax(430px, 1.65fr) repeat(3, minmax(180px, 0.85fr));
+        gap: 20px;
+    }
+
+    #bts-sio .bts-main-card {
+        padding: 30px;
+    }
+}
