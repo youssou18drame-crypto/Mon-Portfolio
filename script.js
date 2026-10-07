@@ -8,21 +8,40 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // --- 1. Gestion de la Navigation Active ---
-    // On récupère tous les liens de navigation
+    // Le lien bleu suit automatiquement la section visible pendant le défilement.
     const navLinks = document.querySelectorAll("#main-nav a");
-    const currentUrl = window.location.pathname.split("/").pop();
+    const sections = [...navLinks]
+        .map(link => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
+
+    const updateActiveNav = () => {
+        const position = window.scrollY + Math.min(window.innerHeight * 0.35, 260);
+        let currentSection = sections[0];
+
+        sections.forEach(section => {
+            if (section.offsetTop <= position) {
+                currentSection = section;
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.toggle(
+                "active",
+                currentSection && link.getAttribute("href") === `#${currentSection.id}`
+            );
+        });
+    };
 
     navLinks.forEach(link => {
-        // Si le href du lien correspond à la page actuelle, on ajoute la classe 'active'
-        if (link.getAttribute("href") === currentUrl || (currentUrl === "" && link.getAttribute("href") === "index.html")) {
-            link.classList.add("active");
-        }
-
-        // Effet de feedback au clic dans la console (Utile pour le debug)
         link.addEventListener("click", () => {
-            console.log(`Navigation vers la section : ${link.textContent.trim()}`);
+            navLinks.forEach(item => item.classList.remove("active"));
+            link.classList.add("active");
         });
     });
+
+    updateActiveNav();
+    window.addEventListener("scroll", updateActiveNav, { passive: true });
+    window.addEventListener("resize", updateActiveNav);
 
     // --- 2. Animation au survol des cartes (Compétences & À Propos) ---
     // Utilisation de querySelectorAll pour cibler plusieurs éléments d'un coup
