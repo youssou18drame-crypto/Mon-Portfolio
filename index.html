@@ -1197,17 +1197,47 @@ const token = jwt.sign(
                                     Des captures ont été réalisées pendant les tests de la version
                                     en production. Elles montrent les étapes suivantes :
                                 </p>
-                                <ol style="margin-top:12px;padding-left:22px;">
-                                    <li><strong>Création de compte :</strong> message « Compte créé avec succès ».</li>
-                                    <li><strong>Connexion :</strong> accès à la page « Les derniers avis » après authentification.</li>
-                                    <li><strong>Ajout :</strong> apparition d'un avis enregistré dans la liste.</li>
-                                    <li><strong>Modification :</strong> bouton « Modifier », fenêtre de saisie puis changement du texte de l'avis.</li>
-                                    <li><strong>Suppression :</strong> fenêtre de confirmation puis disparition uniquement de l'avis sélectionné.</li>
-                                </ol>
-                                <p style="margin-top:12px;color:var(--text-light);">
-                                    Ces captures servent de preuves du fonctionnement réel de
-                                    l'application et complètent les extraits de code et le schéma
-                                    de base de données présentés ci-dessus.
+                                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:20px;">
+                                    <figure style="margin:0;">
+                                        <img src="preuves/mds-inscription.jpg"
+                                             alt="Preuve de création de compte MDS Avis"
+                                             loading="lazy"
+                                             style="width:100%;border-radius:10px;border:1px solid #e2e8f0;">
+                                        <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
+                                            <strong>Preuve 1 — Inscription :</strong>
+                                            création réussie d'un compte étudiant avec le message
+                                            « Compte créé avec succès ».
+                                        </figcaption>
+                                    </figure>
+
+                                    <figure style="margin:0;">
+                                        <img src="preuves/mds-modification.jpg"
+                                             alt="Preuve du bouton Modifier MDS Avis"
+                                             loading="lazy"
+                                             style="width:100%;border-radius:10px;border:1px solid #e2e8f0;">
+                                        <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
+                                            <strong>Preuve 2 — Modification :</strong>
+                                            ouverture de la fenêtre de modification d'un avis existant
+                                            depuis le bouton « Modifier » relié à PUT /avis/:id.
+                                        </figcaption>
+                                    </figure>
+
+                                    <figure style="margin:0;">
+                                        <img src="preuves/mds-suppression.jpg"
+                                             alt="Preuve de suppression ciblée MDS Avis"
+                                             loading="lazy"
+                                             style="width:100%;border-radius:10px;border:1px solid #e2e8f0;">
+                                        <figcaption style="margin-top:8px;font-size:0.9rem;color:var(--text-light);">
+                                            <strong>Preuve 3 — Lecture et suppression :</strong>
+                                            après suppression d'un avis de test, les autres avis restent
+                                            présents. Cela valide la récupération GET et la suppression DELETE ciblée.
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <p style="margin-top:18px;color:var(--text-light);">
+                                    Ces captures proviennent des tests réalisés sur la version
+                                    déployée de MDS Avis et complètent les extraits de code et le
+                                    schéma de base de données présentés ci-dessus.
                                 </p>
                             </div>
 
