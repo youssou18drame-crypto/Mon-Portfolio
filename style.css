@@ -961,3 +961,12 @@ a.whatsapp-float img {
     filter: brightness(0) invert(1) !important;
     opacity: 1 !important;
 }
+
+
+/* WhatsApp — logo complet visible : bulle + combiné téléphonique */
+a.whatsapp-float img {
+    filter: hue-rotate(105deg) saturate(1.15) brightness(1.05) !important;
+    opacity: 1 !important;
+    width: 38px !important;
+    height: 38px !important;
+}
