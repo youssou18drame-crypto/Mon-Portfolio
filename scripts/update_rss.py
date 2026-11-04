@@ -14,8 +14,12 @@ FEEDS = [
     ("LinuxFr.org", "https://linuxfr.org/tags/intelligence_artificielle/public.atom"),
     ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
     ("Le Monde", "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"),
+    ("LinuxFr sécurité", "https://linuxfr.org/tags/securite/public.atom"),
+    ("Le Monde Informatique sécurité", "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"),
 ]
-KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "agent", "copilot", "développe", "programm", "codage", "code ", "logiciel", "modèle", "llm", "open source", "open-source", "chatgpt", "mistral", "claude", "gemini", "automatis")
+AI_KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "agent", "copilot", "développe", "programm", "codage", "code ", "logiciel", "modèle", "llm", "open source", "open-source", "chatgpt", "mistral", "claude", "gemini", "automatis")
+
+CYBER_KEYWORDS = ("cybersécur", "sécurit", "vulnérab", "faille", "pirat", "ransomware", "malware", "phishing", "authentification", "injection sql", "cve-", "attaque", "correctif")
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 
@@ -55,9 +59,10 @@ def parse_feed(data, source):
         title, summary = clean(title), clean(summary)
         if not title or not link.startswith("https://"):
             continue
-        if not any(k in (" " + title.lower() + " ") for k in KEYWORDS):
+        topic = "cybersecurite" if any(k in title.lower() for k in CYBER_KEYWORDS) else ("ia" if any(k in title.lower() for k in AI_KEYWORDS) else "")
+        if not topic:
             continue
-        out.append({"title": title[:160], "url": link, "summary": summary[:240], "date": date_iso(published), "source": source})
+        out.append({"title": title[:160], "url": link, "summary": summary[:240], "date": date_iso(published), "source": source, "topic": topic})
     return out
 
 def main():
@@ -79,16 +84,12 @@ def main():
     unique = {}
     for item in all_items:
         unique.setdefault(item["url"].rstrip("/"), item)
-    articles = []
-    counts = {}
-    for item in sorted(unique.values(), key=lambda x: x["date"], reverse=True):
-        source = item["source"]
-        if counts.get(source, 0) >= 2:
-            continue
-        articles.append(item)
-        counts[source] = counts.get(source, 0) + 1
-        if len(articles) == 8:
-            break
+    ordered = sorted(unique.values(), key=lambda x: x["date"], reverse=True)
+    ai = next((item for item in ordered if item["topic"] == "ia"), None)
+    cyber = next((item for item in ordered if item["topic"] == "cybersecurite" and (ai is None or item["source"] != ai["source"])), None)
+    articles = [item for item in (ai, cyber) if item]
+    if len(articles) < 2:
+        print("Un sujet manque dans les flux : aucune actualité inventée.")
     payload = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "feeds": [{"name": n, "url": u} for n, u in FEEDS], "articles": articles}
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
