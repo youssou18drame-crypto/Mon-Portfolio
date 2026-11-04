@@ -907,37 +907,11 @@
                     <p class="veille-sources"><strong>Autres sources :</strong> Stack Overflow, documentations officielles et ANSSI.</p>
                 </div>
 
-                <h3 class="veille-subtitle">📰 Quatre actualités marquantes</h3>
-                <div class="veille-grid">
-                    <article class="veille-card">
-                        <div class="veille-date">5 mars 2026 · GitHub</div>
-                        <h3>GPT-5.4 dans GitHub Copilot</h3>
-                        <p>Copilot intègre un modèle conçu pour mieux accompagner les tâches de programmation complexes.</p>
-                        <p class="veille-retour"><strong>Mon regard :</strong> l'IA peut assister le développeur au-delà de la simple autocomplétion.</p>
-                        <a class="veille-link" href="https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot/" target="_blank" rel="noopener noreferrer">Voir la source ↗</a>
-                    </article>
-                    <article class="veille-card">
-                        <div class="veille-date">2 juin 2026 · GitHub</div>
-                        <h3>Des environnements isolés pour les agents IA</h3>
-                        <p>GitHub présente des sandboxes pour exécuter des tâches dans un environnement contrôlé.</p>
-                        <p class="veille-retour"><strong>Mon regard :</strong> l'autonomie des agents exige des permissions limitées et une bonne sécurité.</p>
-                        <a class="veille-link" href="https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview/" target="_blank" rel="noopener noreferrer">Voir la source ↗</a>
-                    </article>
-                    <article class="veille-card">
-                        <div class="veille-date">13 juin 2026 · daily.dev</div>
-                        <h3>Comparer les assistants de programmation</h3>
-                        <p>Copilot, Cursor, Claude Code et Windsurf proposent des fonctionnalités différentes.</p>
-                        <p class="veille-retour"><strong>Mon regard :</strong> le choix d'un outil dépend du projet et des besoins du développeur.</p>
-                        <a class="veille-link" href="https://daily.dev/blog/best-ai-coding-assistants-comparison/" target="_blank" rel="noopener noreferrer">Voir la source ↗</a>
-                    </article>
-                    <article class="veille-card">
-                        <div class="veille-date">8 août 2026 · daily.dev</div>
-                        <h3>Vers des agents de développement</h3>
-                        <p>Certains assistants peuvent analyser un projet et intervenir sur plusieurs fichiers.</p>
-                        <p class="veille-retour"><strong>Mon regard :</strong> leurs modifications doivent toujours être comprises et testées.</p>
-                        <a class="veille-link" href="https://daily.dev/blog/best-ai-coding-agents-comparison/" target="_blank" rel="noopener noreferrer">Voir la source ↗</a>
-                    </article>
-                </div>
+                <h3 class="veille-subtitle">📰 Actualités issues de flux RSS</h3>
+                <p class="veille-sources">Articles récupérés automatiquement depuis les flux RSS/Atom de GitHub Blog et GitHub Copilot. Mise à jour programmée toutes les 6 heures.</p>
+                <p id="veille-rss-status" class="veille-sources" role="status">Chargement des flux RSS…</p>
+                <div id="veille-rss-grid" class="veille-grid" aria-live="polite"></div>
+                <noscript><p>Activez JavaScript pour afficher les actualités des flux RSS.</p></noscript>
 
                 <div class="veille-bilan">
                     <div>
@@ -1529,7 +1503,7 @@
 }
 </style>
 
-<script src="script.js?v=3"></script>
+<script src="script.js?v=4"></script>
 
     <div id="preuve-modal" onclick="fermerPreuve(event)" style="display:none;position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.92);align-items:center;justify-content:center;padding:20px;">
         <button type="button" onclick="fermerPreuve()" aria-label="Fermer" style="position:absolute;top:18px;right:24px;border:0;background:none;color:white;font-size:38px;cursor:pointer;">×</button>
