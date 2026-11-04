@@ -1,75 +1,47 @@
 {
-  "updated_at": "2026-11-04T10:46:11.958468+00:00",
+  "updated_at": "2026-11-04T11:26:24.105241+00:00",
   "feeds": [
     {
-      "name": "GitHub Copilot",
-      "url": "https://github.blog/changelog/label/copilot/feed/"
+      "name": "Le Monde Informatique",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"
     },
     {
-      "name": "GitHub Changelog",
-      "url": "https://github.blog/changelog/all.atom"
+      "name": "Le Monde IA",
+      "url": "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"
     },
     {
-      "name": "GitHub Blog",
-      "url": "https://github.blog/all.atom"
+      "name": "Les Numériques",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"
+    },
+    {
+      "name": "ZDNet France",
+      "url": "https://www.zdnet.fr/feeds/rss/actualites/informatique/"
+    },
+    {
+      "name": "Le Monde Pixels",
+      "url": "https://www.lemonde.fr/pixels/rss_full.xml"
+    },
+    {
+      "name": "Le Monde Informatique sécurité",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"
     }
   ],
   "articles": [
     {
-      "title": "BYOK and enterprise custom models in the Copilot usage API",
-      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usa",
-      "date": "2026-11-04T00:32:19+00:00",
-      "source": "GitHub Copilot"
+      "title": "Actualité : Google va couper son moteur de recherche aux écoles qui refusent son IA, provoquant un scandale aux États-Unis",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/google-va-couper-son-moteur-de-recherche-aux-ecoles-qui-refusent-son-ia-provoquant-un-scandale-aux-etats-unis-n266770.html",
+      "summary": "Google ou l’IA, il faudra choisir. Mardi 3 novembre, le géant a prévenu les écoles américaines : refuser ses outils d’IA en bloc coûtera aussi la recherche Google. Les élèves verront un message d’indisponibilité à la place des résultats, et",
+      "date": "2026-11-04T08:45:00+01:00",
+      "source": "Les Numériques",
+      "topic": "ia"
     },
     {
-      "title": "Dependabot version updates support Agent Package Manager",
-      "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-      "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Age",
-      "date": "2026-11-03T20:24:07+00:00",
-      "source": "GitHub Changelog"
-    },
-    {
-      "title": "Arnis turns any place on Earth into a Minecraft world",
-      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-      "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
-      "date": "2026-11-03T16:00:00+00:00",
-      "source": "GitHub Blog"
-    },
-    {
-      "title": "GitHub Copilot is now available in JetBrains Air",
-      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-      "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBra",
-      "date": "2026-11-03T15:11:46+00:00",
-      "source": "GitHub Copilot"
-    },
-    {
-      "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
-      "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.3. It supports new Python 3.15 language… The post CodeQL 2.27.3 adds Python 3.15 ",
-      "date": "2026-11-03T14:56:03+00:00",
-      "source": "GitHub Changelog"
-    },
-    {
-      "title": "Security risk assessments include repository protection status",
-      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
-      "summary": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The post Security risk as",
-      "date": "2026-11-02T15:47:21+00:00",
-      "source": "GitHub Changelog"
-    },
-    {
-      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The ",
-      "date": "2026-10-28T16:07:40+00:00",
-      "source": "GitHub Blog"
-    },
-    {
-      "title": "Route and orchestrate models with GitHub Copilot Fusion",
-      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-      "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and orchestrate models with GitH",
-      "date": "2026-10-28T16:00:00+00:00",
-      "source": "GitHub Copilot"
+      "title": "ZDNET Morning 04/11/2026 : Recommandations Netflix avec IA Gen, Anatomie du piratage de Binance, Canva restructure,...",
+      "url": "https://www.zdnet.fr/actualites/zdnet-morning-04-11-2026-recommandations-netflix-avec-ia-gen-anatomie-du-piratage-de-binance-canva-restructure-507252.htm#xtor=RSS-1",
+      "summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
+      "date": "2026-11-04T10:11:29+00:00",
+      "source": "ZDNet France",
+      "topic": "cybersecurite"
     }
   ]
 }
