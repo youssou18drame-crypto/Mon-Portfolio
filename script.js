@@ -137,23 +137,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
     const topics = [{id:"ia",title:"Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Cybersécurité des applications web"}];
-    const fallback = {
-      ia: {
-        title: "GitHub Copilot est désormais disponible dans JetBrains Air",
-        summary: "GitHub annonce l'intégration de Copilot dans JetBrains Air pour déléguer des tâches de développement, guider leur exécution et examiner les résultats.",
-        url: "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-        source: "GitHub Changelog",
-        date: "2026-11-03T15:11:46+00:00"
-      },
-      cybersecurite: {
-        title: "Vulnérabilité dans Keycloak : contournement de la politique de sécurité",
-        summary: "Le CERT-FR signale une vulnérabilité de Keycloak touchant certaines versions antérieures à 26.7.4. Un exemple concret de la nécessité de sécuriser l'authentification des applications.",
-        url: "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
-        source: "CERT-FR / ANSSI",
-        date: "2026-09-17T00:00:00+02:00"
-      }
-    };
-    const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id) || fallback[topic.id]}));
+    const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id)}));
     selected.forEach(topic => {
       const article = topic.article;
       const section = document.createElement("section");
