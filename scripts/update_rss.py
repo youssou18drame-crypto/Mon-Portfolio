@@ -11,7 +11,7 @@ from pathlib import Path
 
 FEEDS = [
     ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"),
-    ("LinuxFr.org", "https://linuxfr.org/tags/intelligence_artificielle/public.atom"),
+    ("Le Monde IA", "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"),
     ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
     ("ZDNet France", "https://www.zdnet.fr/feeds/rss/actualites/informatique/"),
     ("Le Monde Pixels", "https://www.lemonde.fr/pixels/rss_full.xml"),
@@ -59,7 +59,10 @@ def parse_feed(data, source):
         title, summary = clean(title), clean(summary)
         if not title or not link.startswith("https://"):
             continue
-        topic = "cybersecurite" if any(k in title.lower() for k in CYBER_KEYWORDS) else ("ia" if any(k in title.lower() for k in AI_KEYWORDS) else "")
+        searchable = (title + " " + summary[:500]).lower()
+        is_security_feed = "sécurité" in source.lower()
+        is_ai_feed = source == "Le Monde IA" or source == "Les Numériques"
+        topic = "cybersecurite" if (is_security_feed or any(k in title.lower() for k in CYBER_KEYWORDS)) else ("ia" if (is_ai_feed or any(k in searchable for k in AI_KEYWORDS)) else "")
         if not topic:
             continue
         out.append({"title": title[:160], "url": link, "summary": summary[:240], "date": date_iso(published), "source": source, "topic": topic})
@@ -94,6 +97,8 @@ def main():
                     previous = next((item for item in old.get("articles", []) if item.get("topic") == missing and (not articles or item.get("source") != articles[0]["source"])), None)
                     if previous:
                         articles.append(previous)
+    if len(articles) < 2:
+        raise RuntimeError("Impossible de récupérer un article RSS pour chaque sujet depuis deux éditeurs différents. Erreurs : " + "; ".join(failures))
     payload = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "feeds": [{"name": n, "url": u} for n, u in FEEDS], "articles": articles}
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
