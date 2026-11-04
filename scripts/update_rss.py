@@ -13,8 +13,8 @@ FEEDS = [
     ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml"),
     ("LinuxFr.org", "https://linuxfr.org/tags/intelligence_artificielle/public.atom"),
     ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
-    ("Le Monde", "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"),
-    ("LinuxFr sécurité", "https://linuxfr.org/tags/securite/public.atom"),
+    ("ZDNet France", "https://www.zdnet.fr/feeds/rss/actualites/informatique/"),
+    ("Le Monde Pixels", "https://www.lemonde.fr/pixels/rss_full.xml"),
     ("Le Monde Informatique sécurité", "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"),
 ]
 AI_KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "agent", "copilot", "développe", "programm", "codage", "code ", "logiciel", "modèle", "llm", "open source", "open-source", "chatgpt", "mistral", "claude", "gemini", "automatis")
@@ -77,10 +77,7 @@ def main():
             failures.append(f"{name}: {exc}")
     target = Path("data/veille-rss.json")
     if not all_items:
-        if target.exists():
-            print("Flux indisponibles, conservation des données précédentes:", failures)
-            return
-        raise RuntimeError("Aucun flux RSS disponible: " + "; ".join(failures))
+        raise RuntimeError("Aucun article pertinent récupéré depuis les flux RSS : " + "; ".join(failures))
     unique = {}
     for item in all_items:
         unique.setdefault(item["url"].rstrip("/"), item)
@@ -90,6 +87,13 @@ def main():
     articles = [item for item in (ai, cyber) if item]
     if len(articles) < 2:
         print("Un sujet manque dans les flux : aucune actualité inventée.")
+        if target.exists():
+            old = json.loads(target.read_text(encoding="utf-8"))
+            for missing in ("ia", "cybersecurite"):
+                if not any(item["topic"] == missing for item in articles):
+                    previous = next((item for item in old.get("articles", []) if item.get("topic") == missing and (not articles or item.get("source") != articles[0]["source"])), None)
+                    if previous:
+                        articles.append(previous)
     payload = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "feeds": [{"name": n, "url": u} for n, u in FEEDS], "articles": articles}
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
