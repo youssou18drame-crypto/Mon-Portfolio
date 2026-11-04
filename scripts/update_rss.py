@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 FEEDS = [
-    ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml"),
+    ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"),
     ("LinuxFr.org", "https://linuxfr.org/tags/intelligence_artificielle/public.atom"),
     ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
     ("ZDNet France", "https://www.zdnet.fr/feeds/rss/actualites/informatique/"),
