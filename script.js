@@ -137,7 +137,23 @@ document.addEventListener("DOMContentLoaded", async () => {
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
     const topics = [{id:"ia",title:"Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Cybersécurité des applications web"}];
-    const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id)}));
+    const fallback = {
+      ia: {
+        title: "GitHub Copilot est désormais disponible dans JetBrains Air",
+        summary: "GitHub annonce l'intégration de Copilot dans JetBrains Air pour déléguer des tâches de développement, guider leur exécution et examiner les résultats.",
+        url: "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+        source: "GitHub Changelog",
+        date: "2026-11-03T15:11:46+00:00"
+      },
+      cybersecurite: {
+        title: "CodeQL 2.27.3 ajoute des fonctionnalités Python 3.15",
+        summary: "GitHub présente une mise à jour de CodeQL, son moteur d'analyse statique utilisé pour détecter les problèmes de sécurité dans le code.",
+        url: "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+        source: "GitHub Changelog",
+        date: "2026-11-03T14:56:03+00:00"
+      }
+    };
+    const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id) || fallback[topic.id]}));
     selected.forEach(topic => {
       const article = topic.article;
       const section = document.createElement("section");
