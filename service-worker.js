@@ -1,10 +1,10 @@
-const CACHE_NAME = "portfolio-eyd-v24";
+const CACHE_NAME = "portfolio-eyd-v25";
 
 const LOCAL_FILES = [
   "./",
   "./index.html",
   "./style.css?v=26",
-  "./script.js?v=9",
+  "./script.js?v=10",
   "./manifest.webmanifest",
   "./photo-profil.jpeg",
   "./CV_FINAL_DROITE_ENTIEREMENT_VISIBLE.pdf",
@@ -53,6 +53,11 @@ self.addEventListener("fetch", event => {
         })
         .catch(() => caches.match("./index.html"))
     );
+    return;
+  }
+
+  if (requestUrl.pathname.endsWith("/data/veille-rss.json")) {
+    event.respondWith(fetch(event.request));
     return;
   }
 
