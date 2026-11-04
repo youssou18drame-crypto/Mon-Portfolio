@@ -1,10 +1,10 @@
-const CACHE_NAME = "portfolio-eyd-v18";
+const CACHE_NAME = "portfolio-eyd-v19";
 
 const LOCAL_FILES = [
   "./",
   "./index.html",
   "./style.css?v=26",
-  "./script.js?v=3",
+  "./script.js?v=4",
   "./manifest.webmanifest",
   "./photo-profil.jpeg",
   "./CV_FINAL_DROITE_ENTIEREMENT_VISIBLE.pdf",
