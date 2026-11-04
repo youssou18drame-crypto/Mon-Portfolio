@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T11:30:29.545214+00:00",
+  "updated_at": "2026-11-04T12:42:53.324402+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Le DJI Neo 2 est le drone idéal débutant, et il coûte le prix d’un modèle low-cost 😱",
-      "url": "https://www.01net.com/bons-plans/le-dji-neo-2-est-le-drone-ideal-debutant-et-il-coute-le-prix-dun-modele-low-cost.html",
-      "summary": "Après la Switch 2 et le Meta Quest 3S qui sont en rupture sur AliExpress, le DJI Neo 2 pourrait être le prochain best-seller du Singles Day à disparaître. Cette offre est folle.",
-      "date": "2026-11-04T10:44:57+00:00",
-      "source": "01net",
+      "title": "SCX 26 : Naval Group ose le canon électromagnétique, arme que l’US Navy a abandonné après 500 millions de dollars",
+      "url": "https://www.numerama.com/tech/2367481-naval-group-presente-le-scx-26-un-concept-de-navire-arme-dun-canon-electromagnetique-larme-que-lus-navy-a-abandonnee.html",
+      "summary": "Naval Group a dévoilé ce mardi 3 novembre au salon Euronaval le SCX 26, un concept de navire de combat de 8 000 tonnes armé d'un canon électromagnétique. La marine américaine a abandonné cette arme en 2021, après quinze ans de développement",
+      "date": "2026-11-04T11:31:00+00:00",
+      "source": "Numerama",
       "topic": "ia"
     },
     {
-      "title": "Piratage du Crédit Mutuel Arkéa : ce que l’on sait et qui est réellement concerné",
-      "url": "https://www.numerama.com/cyberguerre/2367485-piratage-du-credit-mutuel-arkea-ce-que-lon-sait-et-qui-est-reellement-concerne.html",
-      "summary": "Le Crédit Mutuel Arkéa a confirmé ce mercredi 4 novembre avoir subi une cyberattaque, sans donner de montant. Les fonds auraient été convertis en cryptomonnaies, mais la banque assure que ses clients ne subiront aucune conséquence financièr",
-      "date": "2026-11-04T10:38:02+00:00",
-      "source": "Numerama",
+      "title": "Une banque française vient d’être piratée : 100 millions d’euros volés suite à des « opérations frauduleuses »",
+      "url": "https://www.01net.com/actualites/une-banque-francaise-vient-detre-piratee-100-millions-deuros-voles-suite-a-des-operations-frauduleuses.html",
+      "summary": "Le Crédit Mutuel Arkéa a été victime d'une cyberattaque. Les pirates auraient détourné 118 millions d'euros, rapidement convertis en cryptomonnaies pour brouiller les pistes. La banque bretonne assure que ses clients ne seront pas lésés.",
+      "date": "2026-11-04T10:13:26+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
