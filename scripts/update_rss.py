@@ -19,9 +19,9 @@ FEEDS = [
     ("Le Monde Pixels", "https://www.lemonde.fr/pixels/rss_full.xml"),
     ("Le Monde Informatique sécurité", "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"),
 ]
-AI_KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "agent", "copilot", "développe", "programm", "codage", "code ", "logiciel", "modèle", "llm", "open source", "open-source", "chatgpt", "mistral", "claude", "gemini", "automatis")
+AI_KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "copilot", "développement web", "développeur web", "programmation", "codage", "javascript", "typescript", "react", "next.js", "llm", "chatgpt", "mistral ai", "claude ai", "gemini ai", "openai")
 
-CYBER_KEYWORDS = ("cybersécur", "sécurit", "vulnérab", "faille", "pirat", "ransomware", "malware", "phishing", "authentification", "injection sql", "cve-", "attaque", "correctif")
+CYBER_KEYWORDS = ("cybersécur", "sécurité informatique", "vulnérab", "faille", "pirat", "ransomware", "malware", "phishing", "authentification", "injection sql", "cve-", "cyberattaque", "correctif de sécurité", "xss", "csrf")
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 
@@ -61,10 +61,8 @@ def parse_feed(data, source):
         title, summary = clean(title), clean(summary)
         if not title or not link.startswith("https://"):
             continue
-        searchable = (title + " " + summary[:500]).lower()
-        is_security_feed = "sécurité" in source.lower()
-        is_ai_feed = source == "Le Monde IA" or source == "Les Numériques"
-        topic = "cybersecurite" if (is_security_feed or any(k in title.lower() for k in CYBER_KEYWORDS)) else ("ia" if (is_ai_feed or any(k in searchable for k in AI_KEYWORDS)) else "")
+        headline = " " + title.lower() + " "
+        topic = "cybersecurite" if any(k in headline for k in CYBER_KEYWORDS) else ("ia" if any(k in headline for k in AI_KEYWORDS) else "")
         if not topic:
             continue
         out.append({"title": title[:160], "url": link, "summary": summary[:240], "date": date_iso(published), "source": source, "topic": topic})
