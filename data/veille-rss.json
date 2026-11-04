@@ -1,9 +1,13 @@
 {
-  "updated_at": "2026-11-04T11:26:24.105241+00:00",
+  "updated_at": "2026-11-04T11:30:29.545214+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
       "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"
+    },
+    {
+      "name": "Numerama",
+      "url": "https://www.numerama.com/feed/"
     },
     {
       "name": "Le Monde IA",
@@ -12,6 +16,10 @@
     {
       "name": "Les Numériques",
       "url": "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"
+    },
+    {
+      "name": "01net",
+      "url": "https://www.01net.com/feed/"
     },
     {
       "name": "ZDNet France",
@@ -28,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Actualité : Google va couper son moteur de recherche aux écoles qui refusent son IA, provoquant un scandale aux États-Unis",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/google-va-couper-son-moteur-de-recherche-aux-ecoles-qui-refusent-son-ia-provoquant-un-scandale-aux-etats-unis-n266770.html",
-      "summary": "Google ou l’IA, il faudra choisir. Mardi 3 novembre, le géant a prévenu les écoles américaines : refuser ses outils d’IA en bloc coûtera aussi la recherche Google. Les élèves verront un message d’indisponibilité à la place des résultats, et",
-      "date": "2026-11-04T08:45:00+01:00",
-      "source": "Les Numériques",
+      "title": "Le DJI Neo 2 est le drone idéal débutant, et il coûte le prix d’un modèle low-cost 😱",
+      "url": "https://www.01net.com/bons-plans/le-dji-neo-2-est-le-drone-ideal-debutant-et-il-coute-le-prix-dun-modele-low-cost.html",
+      "summary": "Après la Switch 2 et le Meta Quest 3S qui sont en rupture sur AliExpress, le DJI Neo 2 pourrait être le prochain best-seller du Singles Day à disparaître. Cette offre est folle.",
+      "date": "2026-11-04T10:44:57+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "ZDNET Morning 04/11/2026 : Recommandations Netflix avec IA Gen, Anatomie du piratage de Binance, Canva restructure,...",
-      "url": "https://www.zdnet.fr/actualites/zdnet-morning-04-11-2026-recommandations-netflix-avec-ia-gen-anatomie-du-piratage-de-binance-canva-restructure-507252.htm#xtor=RSS-1",
-      "summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
-      "date": "2026-11-04T10:11:29+00:00",
-      "source": "ZDNet France",
+      "title": "Piratage du Crédit Mutuel Arkéa : ce que l’on sait et qui est réellement concerné",
+      "url": "https://www.numerama.com/cyberguerre/2367485-piratage-du-credit-mutuel-arkea-ce-que-lon-sait-et-qui-est-reellement-concerne.html",
+      "summary": "Le Crédit Mutuel Arkéa a confirmé ce mercredi 4 novembre avoir subi une cyberattaque, sans donner de montant. Les fonds auraient été convertis en cryptomonnaies, mais la banque assure que ses clients ne subiront aucune conséquence financièr",
+      "date": "2026-11-04T10:38:02+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
