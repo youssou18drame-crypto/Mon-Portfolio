@@ -1236,3 +1236,47 @@ a.whatsapp-float img {
         grid-row: auto;
     }
 }
+
+
+/* BTS SIO : composition compacte, sans colonne vide */
+#bts-sio .bts-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin: 0 0 20px;
+}
+#bts-sio .bts-summary-card,
+#bts-sio .bts-motivation {
+    min-width: 0;
+    background: linear-gradient(145deg, rgba(16,31,51,.98), rgba(10,22,38,.98));
+    border: 1px solid rgba(96,165,250,.18);
+    border-radius: 16px;
+    padding: 24px 28px;
+}
+#bts-sio .bts-summary-card strong {
+    display: block;
+    color: #f8fafc;
+    font-size: 1.18rem;
+    margin: 10px 0 5px;
+}
+#bts-sio .bts-summary-card p,
+#bts-sio .bts-motivation p {
+    color: #aebed2;
+    margin: 0;
+    line-height: 1.65;
+}
+#bts-sio .bts-motivation {
+    margin-bottom: 20px;
+    padding: 24px 28px;
+}
+#bts-sio .bts-motivation h3 {
+    margin: 8px 0 10px;
+    color: #f8fafc;
+    font-size: 1.3rem;
+}
+#bts-sio .bts-motivation p { max-width: 90ch; }
+@media (max-width: 700px) {
+    #bts-sio .bts-summary-grid { grid-template-columns: 1fr; }
+    #bts-sio .bts-summary-card,
+    #bts-sio .bts-motivation { padding: 20px; }
+}
