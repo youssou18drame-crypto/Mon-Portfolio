@@ -1,5 +1,10 @@
 name: Actualiser la veille RSS
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_rss.py'
+      - '.github/workflows/rss-veille.yml'
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
