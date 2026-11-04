@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:49:09.578220+00:00",
+  "updated_at": "2026-11-04T19:48:42.021219+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Actualité : Google va couper son moteur de recherche aux écoles qui refusent son IA, provoquant un scandale aux États-Unis",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/google-va-couper-son-moteur-de-recherche-aux-ecoles-qui-refusent-son-ia-provoquant-un-scandale-aux-etats-unis-n266770.html",
-      "summary": "Google ou l’IA, il faudra choisir. Mardi 3 novembre, le géant a prévenu les écoles américaines : refuser ses outils d’IA en bloc coûtera aussi la recherche Google. Les élèves verront un message d’indisponibilité à la place des résultats, et",
-      "date": "2026-11-04T08:45:00+01:00",
-      "source": "Les Numériques",
+      "title": "ChatGPT à l’assaut de Google : OpenAI revendique déjà 20 % du volume de recherche",
+      "url": "https://www.01net.com/actualites/chatgpt-a-lassaut-de-google-openai-revendique-deja-20-du-volume-de-recherche.html",
+      "summary": "Un cinquième de Google : le chiffre claque, et c'est OpenAI qui le brandit. Avant de l'encadrer, mieux vaut regarder ce qu'il compte vraiment, et surtout qui tient la règle.",
+      "date": "2026-11-04T16:33:34+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "Piratage du Crédit Mutuel Arkéa : ce que l’on sait et qui est réellement concerné",
-      "url": "https://www.numerama.com/cyberguerre/2367485-piratage-du-credit-mutuel-arkea-ce-que-lon-sait-et-qui-est-reellement-concerne.html",
-      "summary": "Le Crédit Mutuel Arkéa a confirmé ce mercredi 4 novembre avoir subi une cyberattaque, sans donner de montant. Les fonds auraient été convertis en cryptomonnaies, mais la banque assure que ses clients ne subiront aucune conséquence financièr",
-      "date": "2026-11-04T10:38:02+00:00",
-      "source": "Numerama",
+      "title": "Avec la cyberattaque au Crédit mutuel Arkéa, les banques européennes prennent conscience de l’ampleur de leur vulnérabilité",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/04/avec-la-cyberattaque-au-credit-mutuel-arkea-les-banques-europeennes-prennent-conscience-de-l-ampleur-de-leur-vulnerabilite_6806367_3234.html",
+      "summary": "Les pirates informatiques sont parvenus à dérober une partie des fonds propres d’Arkéa. Une attaque inédite dans la finance européenne.",
+      "date": "2026-11-04T16:51:29+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
