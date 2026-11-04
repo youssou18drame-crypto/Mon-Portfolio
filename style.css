@@ -1280,3 +1280,6 @@ a.whatsapp-float img {
     #bts-sio .bts-summary-card,
     #bts-sio .bts-motivation { padding: 20px; }
 }
+
+/* Carte SLAM unique sur toute la largeur */
+#bts-sio .bts-options { grid-template-columns: minmax(0, 1fr); }
