@@ -10,11 +10,13 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 FEEDS = [
-    ("GitHub Copilot", "https://github.blog/changelog/label/copilot/feed/"),
-    ("GitHub Changelog", "https://github.blog/changelog/all.atom"),
-    ("GitHub Blog", "https://github.blog/all.atom"),
+    ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml"),
+    ("LinuxFr.org", "https://linuxfr.org/tags/intelligence_artificielle/public.atom"),
+    ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
+    ("Le Monde", "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"),
 ]
-KEYWORDS = ("copilot", "artificial intelligence", "ai ", " ai", "agent", "coding", "code", "developer", "llm", "model", "automation", "intelligence artificielle", "programming", "javascript", "web development")
+KEYWORDS = ("intelligence artificielle", " ia ", "ia :", "ia,", "ia.", "agent", "copilot", "développe", "programm", "codage", "code ", "logiciel", "modèle", "llm", "open source", "open-source", "chatgpt", "mistral", "claude", "gemini", "automatis")
+
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 def clean(value):
@@ -53,7 +55,7 @@ def parse_feed(data, source):
         title, summary = clean(title), clean(summary)
         if not title or not link.startswith("https://"):
             continue
-        if not any(k in (title + " " + summary[:350]).lower() for k in KEYWORDS):
+        if not any(k in (" " + title.lower() + " ") for k in KEYWORDS):
             continue
         out.append({"title": title[:160], "url": link, "summary": summary[:240], "date": date_iso(published), "source": source})
     return out
@@ -77,7 +79,16 @@ def main():
     unique = {}
     for item in all_items:
         unique.setdefault(item["url"].rstrip("/"), item)
-    articles = sorted(unique.values(), key=lambda x: x["date"], reverse=True)[:8]
+    articles = []
+    counts = {}
+    for item in sorted(unique.values(), key=lambda x: x["date"], reverse=True):
+        source = item["source"]
+        if counts.get(source, 0) >= 2:
+            continue
+        articles.append(item)
+        counts[source] = counts.get(source, 0) + 1
+        if len(articles) == 8:
+            break
     payload = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "feeds": [{"name": n, "url": u} for n, u in FEEDS], "articles": articles}
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
