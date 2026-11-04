@@ -136,10 +136,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     const dateText = value => value && !Number.isNaN(Date.parse(value))
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
-    const frenchSources = new Set(["Le Monde Informatique", "LinuxFr.org", "Les Numériques", "Le Monde"]);
-    const selected = data.articles.filter(article => frenchSources.has(article.source)).slice(0, 6);
-    if (!selected.length) throw new Error("En attente de nouveaux flux francophones");
-    selected.forEach(article => {
+    const topics = [{id:"ia",title:"Sujet 1 — Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Sujet 2 — Cybersécurité des applications web"}];
+    const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id)}));
+    selected.forEach(topic => {
+      const article = topic.article;
+      const section = document.createElement("section");
+      const heading = document.createElement("h3");
+      heading.textContent = topic.title;
+      section.appendChild(heading);
+      if (!article) {
+        const waiting = document.createElement("p");
+        waiting.textContent = "Article RSS en attente pour ce sujet.";
+        section.appendChild(waiting);
+        grid.appendChild(section);
+        return;
+      }
       if (typeof article.url !== "string" || !article.url.startsWith("https://")) return;
       const card = document.createElement("article");
       card.className = "veille-card";
@@ -157,7 +168,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       link.rel = "noopener noreferrer";
       link.textContent = "Lire l'article ↗";
       card.append(date, title, summary, link);
-      grid.appendChild(card);
+      section.appendChild(card);
+      grid.appendChild(section);
     });
     status.textContent = "Flux RSS/Atom · Dernière récupération : " + dateText(data.updated_at);
   } catch (error) {
