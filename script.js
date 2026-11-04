@@ -129,14 +129,28 @@ document.addEventListener("DOMContentLoaded", async () => {
   const status = document.getElementById("veille-rss-status");
   if (!grid || !status) return;
   try {
-    const response = await fetch("./data/veille-rss.json", {cache: "no-store"});
-    if (!response.ok) throw new Error("RSS not ready");
-    const data = await response.json();
+    const sources = [
+      "https://raw.githubusercontent.com/youssou18drame-crypto/Mon-Portfolio/main/data/veille-rss.json",
+      "./data/veille-rss.json"
+    ];
+    let data;
+    for (const url of sources) {
+      try {
+        const response = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), {cache: "no-store"});
+        if (!response.ok) continue;
+        const candidate = await response.json();
+        if (Array.isArray(candidate.articles) && candidate.articles.some(a => a.topic === "ia") && candidate.articles.some(a => a.topic === "cybersecurite")) {
+          data = candidate;
+          break;
+        }
+      } catch (error) { console.warn("Source RSS indisponible :", url, error); }
+    }
+    if (!data) throw new Error("RSS not ready");
     if (!Array.isArray(data.articles) || !data.articles.length) throw new Error("Empty RSS");
     const dateText = value => value && !Number.isNaN(Date.parse(value))
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
-    const topics = [{id:"ia",title:"Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Cybersécurité des applications web"}];
+    const topics = [{id:"ia",title:"Intelligence artificielle et ses usages"},{id:"cybersecurite",title:"Cyberattaques et protection des données"}];
     const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id)}));
     selected.forEach(topic => {
       const article = topic.article;
