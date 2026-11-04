@@ -1,9 +1,9 @@
-const CACHE_NAME = "portfolio-eyd-v13";
+const CACHE_NAME = "portfolio-eyd-v14";
 
 const LOCAL_FILES = [
   "./",
   "./index.html",
-  "./style.css?v=23",
+  "./style.css?v=24",
   "./script.js?v=3",
   "./manifest.webmanifest",
   "./photo-profil.jpeg",
