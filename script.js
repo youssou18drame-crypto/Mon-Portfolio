@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const dateText = value => value && !Number.isNaN(Date.parse(value))
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
-    const topics = [{id:"ia",title:"Sujet 1 — Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Sujet 2 — Cybersécurité des applications web"}];
+    const topics = [{id:"ia",title:"Intelligence artificielle et développement web"},{id:"cybersecurite",title:"Cybersécurité des applications web"}];
     const selected = topics.map(topic => ({...topic, article:data.articles.find(article => article.topic === topic.id)}));
     selected.forEach(topic => {
       const article = topic.article;
