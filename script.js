@@ -123,3 +123,42 @@ if ("serviceWorker" in navigator) {
             .catch(error => console.error("Service Worker :", error));
     });
 }
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const grid = document.getElementById("veille-rss-grid");
+  const status = document.getElementById("veille-rss-status");
+  if (!grid || !status) return;
+  try {
+    const response = await fetch("./data/veille-rss.json", {cache: "no-store"});
+    if (!response.ok) throw new Error("RSS not ready");
+    const data = await response.json();
+    if (!Array.isArray(data.articles) || !data.articles.length) throw new Error("Empty RSS");
+    const dateText = value => value && !Number.isNaN(Date.parse(value))
+      ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
+      : "Date inconnue";
+    data.articles.slice(0, 6).forEach(article => {
+      if (typeof article.url !== "string" || !article.url.startsWith("https://")) return;
+      const card = document.createElement("article");
+      card.className = "veille-card";
+      const date = document.createElement("div");
+      date.className = "veille-date";
+      date.textContent = dateText(article.date) + " · " + (article.source || "RSS");
+      const title = document.createElement("h3");
+      title.textContent = article.title || "Actualité";
+      const summary = document.createElement("p");
+      summary.textContent = article.summary || "Consulter la publication.";
+      const link = document.createElement("a");
+      link.className = "veille-link";
+      link.href = article.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Lire l'article ↗";
+      card.append(date, title, summary, link);
+      grid.appendChild(card);
+    });
+    status.textContent = "Flux RSS/Atom · Dernière récupération : " + dateText(data.updated_at);
+  } catch (error) {
+    status.textContent = "Actualités RSS en attente de la première récupération GitHub Actions.";
+    console.warn("Veille RSS :", error);
+  }
+});
