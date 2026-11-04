@@ -136,7 +136,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const dateText = value => value && !Number.isNaN(Date.parse(value))
       ? new Date(value).toLocaleDateString("fr-FR", {day:"numeric",month:"long",year:"numeric"})
       : "Date inconnue";
-    data.articles.slice(0, 6).forEach(article => {
+    const frenchSources = new Set(["Le Monde Informatique", "LinuxFr.org", "Les Numériques", "Le Monde"]);
+    const selected = data.articles.filter(article => frenchSources.has(article.source)).slice(0, 6);
+    if (!selected.length) throw new Error("En attente de nouveaux flux francophones");
+    selected.forEach(article => {
       if (typeof article.url !== "string" || !article.url.startsWith("https://")) return;
       const card = document.createElement("article");
       card.className = "veille-card";
@@ -158,7 +161,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
     status.textContent = "Flux RSS/Atom · Dernière récupération : " + dateText(data.updated_at);
   } catch (error) {
-    status.textContent = "Actualités RSS en attente de la première récupération GitHub Actions.";
+    status.textContent = "Actualités francophones en attente de la prochaine récupération RSS.";
     console.warn("Veille RSS :", error);
   }
 });
