@@ -1,4 +1,4 @@
-const CACHE_NAME = "portfolio-eyd-v17";
+const CACHE_NAME = "portfolio-eyd-v18";
 
 const LOCAL_FILES = [
   "./",
