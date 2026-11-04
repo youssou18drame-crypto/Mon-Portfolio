@@ -11,8 +11,10 @@ from pathlib import Path
 
 FEEDS = [
     ("Le Monde Informatique", "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"),
+    ("Numerama", "https://www.numerama.com/feed/"),
     ("Le Monde IA", "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml"),
     ("Les Numériques", "https://www.lesnumeriques.com/intelligence-artificielle/rss.xml"),
+    ("01net", "https://www.01net.com/feed/"),
     ("ZDNet France", "https://www.zdnet.fr/feeds/rss/actualites/informatique/"),
     ("Le Monde Pixels", "https://www.lemonde.fr/pixels/rss_full.xml"),
     ("Le Monde Informatique sécurité", "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"),
@@ -40,7 +42,7 @@ def date_iso(value):
 def parse_feed(data, source):
     root = ET.fromstring(data)
     entries = []
-    if root.tag.endswith("rss") or root.tag.endswith("RDF"):
+    if root.tag.lower().endswith("rss") or root.tag.endswith("RDF"):
         for item in root.findall(".//item"):
             def val(name):
                 el = item.find(name)
