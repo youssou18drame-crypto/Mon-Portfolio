@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:51:57.013385+00:00",
+  "updated_at": "2026-11-05T19:59:29.263661+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "ChatGPT à l’assaut de Google : OpenAI revendique déjà 20 % du volume de recherche",
-      "url": "https://www.01net.com/actualites/chatgpt-a-lassaut-de-google-openai-revendique-deja-20-du-volume-de-recherche.html",
-      "summary": "Un cinquième de Google : le chiffre claque, et c'est OpenAI qui le brandit. Avant de l'encadrer, mieux vaut regarder ce qu'il compte vraiment, et surtout qui tient la règle.",
-      "date": "2026-11-04T16:33:34+00:00",
-      "source": "01net",
+      "title": "J'ai laissé ChatGPT contrôler mes 7 enceintes Sonos, et ce qui m'a le plus plu, ce sont les commandes en plusieurs étapes",
+      "url": "https://www.zdnet.fr/actualites/jai-laisse-chatgpt-controler-mes-7-enceintes-sonos-et-ce-qui-ma-le-plus-plu-ce-sont-les-commandes-en-plusieurs-etapes-507359.htm#xtor=RSS-1",
+      "summary": "Vous pouvez contrôler votre système Sonos à l'aide d'un LLM compatible MCP, mais quelles sont ses limites ?",
+      "date": "2026-11-05T12:11:31+00:00",
+      "source": "ZDNet France",
       "topic": "ia"
     },
     {
-      "title": "Cyberattaque au Crédit mutuel Arkéa : une enquête ouverte après un détournement estimé à près de 100 millions d’euros",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/04/cyberattaque-au-credit-mutuel-arkea-une-enquete-ouverte-apres-un-detournement-estime-a-pres-de-100-millions-d-euros_6806141_4408997.html",
-      "summary": "Les hackers « ont utilisé le compte propre de Crédit mutuel Arkéa pour réaliser des transactions vers d’autres acteurs bancaires », ils ont ensuite « converti cet argent en cryptomonnaie via des plateformes spécialisées », selon un communiq",
-      "date": "2026-11-04T20:47:47+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Actualité : Pour contourner les sanctions et utiliser 8 000 puces IA Nvidia Blackwell, la Chine compte sur une faille européenne qui lui donnera accès à la puis",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/pour-contourner-les-sanctions-et-utiliser-8-000-puces-ia-nvidia-blackwell-la-chine-compte-sur-une-faille-europeenne-qui-lui-donnera-acces-a-la-puissance-de-centres-de-donnees-installes-en-europe-n266831.html",
+      "summary": "Face aux États-Unis qui lui interdisent d’importer des puces Nvidia Blackwell, la Chine a une parade et tout se déroule en Europe. L’entreprise chinoise Moonshot AI chercherait à louer la puissance des centres de données européens pour son ",
+      "date": "2026-11-05T19:15:00+01:00",
+      "source": "Les Numériques",
       "topic": "cybersecurite"
     }
   ]
