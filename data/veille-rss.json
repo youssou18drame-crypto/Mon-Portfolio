@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:48:42.021219+00:00",
+  "updated_at": "2026-11-05T06:51:57.013385+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -44,10 +44,10 @@
       "topic": "ia"
     },
     {
-      "title": "Avec la cyberattaque au Crédit mutuel Arkéa, les banques européennes prennent conscience de l’ampleur de leur vulnérabilité",
-      "url": "https://www.lemonde.fr/economie/article/2026/11/04/avec-la-cyberattaque-au-credit-mutuel-arkea-les-banques-europeennes-prennent-conscience-de-l-ampleur-de-leur-vulnerabilite_6806367_3234.html",
-      "summary": "Les pirates informatiques sont parvenus à dérober une partie des fonds propres d’Arkéa. Une attaque inédite dans la finance européenne.",
-      "date": "2026-11-04T16:51:29+00:00",
+      "title": "Cyberattaque au Crédit mutuel Arkéa : une enquête ouverte après un détournement estimé à près de 100 millions d’euros",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/04/cyberattaque-au-credit-mutuel-arkea-une-enquete-ouverte-apres-un-detournement-estime-a-pres-de-100-millions-d-euros_6806141_4408997.html",
+      "summary": "Les hackers « ont utilisé le compte propre de Crédit mutuel Arkéa pour réaliser des transactions vers d’autres acteurs bancaires », ils ont ensuite « converti cet argent en cryptomonnaie via des plateformes spécialisées », selon un communiq",
+      "date": "2026-11-04T20:47:47+00:00",
       "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
