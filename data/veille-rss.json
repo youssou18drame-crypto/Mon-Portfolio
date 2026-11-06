@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T19:59:29.263661+00:00",
+  "updated_at": "2026-11-06T06:52:37.137551+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,11 +36,11 @@
   ],
   "articles": [
     {
-      "title": "J'ai laissé ChatGPT contrôler mes 7 enceintes Sonos, et ce qui m'a le plus plu, ce sont les commandes en plusieurs étapes",
-      "url": "https://www.zdnet.fr/actualites/jai-laisse-chatgpt-controler-mes-7-enceintes-sonos-et-ce-qui-ma-le-plus-plu-ce-sont-les-commandes-en-plusieurs-etapes-507359.htm#xtor=RSS-1",
-      "summary": "Vous pouvez contrôler votre système Sonos à l'aide d'un LLM compatible MCP, mais quelles sont ses limites ?",
-      "date": "2026-11-05T12:11:31+00:00",
-      "source": "ZDNet France",
+      "title": "GIF animés et images plus rapides : ChatGPT passe la seconde avec Images 2.6",
+      "url": "https://www.01net.com/actualites/gif-animes-et-images-plus-rapides-chatgpt-passe-la-seconde-avec-images-2-6.html",
+      "summary": "Des GIF en une phrase, des images générées plus vite : OpenAI soigne la vitrine. Les comptes gratuits, eux, composeront avec la publicité installée juste à côté.",
+      "date": "2026-11-06T06:00:49+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
