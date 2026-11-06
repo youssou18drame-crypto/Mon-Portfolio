@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:52:37.137551+00:00",
+  "updated_at": "2026-11-06T19:26:50.079545+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "GIF animés et images plus rapides : ChatGPT passe la seconde avec Images 2.6",
-      "url": "https://www.01net.com/actualites/gif-animes-et-images-plus-rapides-chatgpt-passe-la-seconde-avec-images-2-6.html",
-      "summary": "Des GIF en une phrase, des images générées plus vite : OpenAI soigne la vitrine. Les comptes gratuits, eux, composeront avec la publicité installée juste à côté.",
-      "date": "2026-11-06T06:00:49+00:00",
-      "source": "01net",
+      "title": "A Taïwan, la frénésie pour les valeurs boursières liées à l’IA : « Ma mère en achète et en revend le même jour. Ses amis font pareil »",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/06/a-taiwan-la-frenesie-pour-les-valeurs-boursieres-liees-a-l-ia-ma-mere-en-achete-et-en-revend-le-meme-jour-ses-amis-font-pareil_6807795_3234.html",
+      "summary": "L’envolée du cours de Bourse de TSMC, seule entreprise au monde capable de produire les processeurs indispensables au fonctionnement des meilleures intelligences artificielles, alimente l’engouement des habitants de l’île pour l’investissem",
+      "date": "2026-11-06T14:00:00+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "Actualité : Pour contourner les sanctions et utiliser 8 000 puces IA Nvidia Blackwell, la Chine compte sur une faille européenne qui lui donnera accès à la puis",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/pour-contourner-les-sanctions-et-utiliser-8-000-puces-ia-nvidia-blackwell-la-chine-compte-sur-une-faille-europeenne-qui-lui-donnera-acces-a-la-puissance-de-centres-de-donnees-installes-en-europe-n266831.html",
-      "summary": "Face aux États-Unis qui lui interdisent d’importer des puces Nvidia Blackwell, la Chine a une parade et tout se déroule en Europe. L’entreprise chinoise Moonshot AI chercherait à louer la puissance des centres de données européens pour son ",
-      "date": "2026-11-05T19:15:00+01:00",
-      "source": "Les Numériques",
+      "title": "Pendant dix ans, taper 300 fois la lettre A suffisait pour pirater des serveurs Linux",
+      "url": "https://www.numerama.com/cyberguerre/2368965-pendant-dix-ans-taper-300-fois-la-lettre-a-suffisait-pour-pirater-des-serveurs-linux.html",
+      "summary": "Un chercheur a découvert qu’il suffisait de saisir un mot de passe de plus de 256 caractères pour ouvrir, via OpenSSH, des comptes pourtant verrouillés. Cette faille, présente sur des systèmes Linux qui utilisent la bibliothèque musl, vient",
+      "date": "2026-11-06T09:51:59+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
