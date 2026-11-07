@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T13:06:59.482400+00:00",
+  "updated_at": "2026-11-07T21:53:47.276333+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Vers le Rafale du futur, une facture à l’élu qui veut taxer les gigaoctets et la preuve secrète d’OpenAI – le recap’ tech de la semaine",
-      "url": "https://www.numerama.com/tech/2369173-vers-le-rafale-du-futur-une-facture-a-lelu-qui-veut-taxer-les-gigaoctets-et-la-preuve-secrete-dopenai-le-recap-tech-de-la-semaine.html",
-      "summary": "La taxe sur les gigaoctets a connu un fort écho médiatique, jusqu'au rejet du projet de loi des finances lors de son examen à l'Assemblée nationale. Mais ce n'est peut-être que partie remise... et dans le reste de l'actualité cette semaine,",
-      "date": "2026-11-07T06:05:00+00:00",
-      "source": "Numerama",
+      "title": "Actualité : La Chine aurait recruté une dirigeante très proche de Jensen Huang pour espionner le patron de Nvidia et tenter d’accéder à ses meilleures puces IA",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/la-chine-aurait-recrute-une-femme-tres-proche-de-jensen-huang-pour-espionner-le-patron-de-nvidia-et-tenter-d-acceder-a-ses-meilleures-puces-ia-n266988.html",
+      "summary": "Jensen Huang, PDG de Nvidia, serait au centre d’une vaste affaire d’espionnage. Selon plusieurs enquêtes, la Chine aurait recruté une puissante dirigeante d’entreprise pour recueillir des informations sur lui et ses puces IA. Le but aurait ",
+      "date": "2026-11-07T20:30:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Derrière le piratage de Binance, le savoir-faire redoutable des hackeurs nord-coréens",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/07/derriere-le-piratage-de-binance-le-savoir-faire-redoutable-des-hackeurs-nord-coreens_6808134_4408996.html",
-      "summary": "Depuis plus de dix ans, le régime de Pyongyang finance son programme balistique et nucléaire à coup de « cybercasses ». Les pirates nord-coréens ont fait de l’industrie des cryptomonnaies leur cible principale, avec succès.",
-      "date": "2026-11-07T04:00:13+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Root Cyclone, Optic Fluffy, Hyperdymium… rien de tout ça : juste un aspirateur balai pas cher et efficace",
+      "url": "https://www.01net.com/bons-plans/root-cyclone-optic-fluffy-hyperdymium-rien-de-tout-ca-juste-un-aspirateur-balai-pas-cher-et-efficace.html",
+      "summary": "Les aspirateurs balais, c'est très pratique au quotidien. Dyson représente la crème, c'est indéniable. Mais en 2026, tout le monde n'a pas le budget pour s'offrir un modèle à 700 euros. Et c'est là qu'un modèle comme le Laresar V11 NEW pren",
+      "date": "2026-11-07T21:05:39+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
