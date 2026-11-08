@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T06:06:13.589014+00:00",
+  "updated_at": "2026-11-08T13:28:50.913505+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "Jensen Huang, le patron de Nvidia, soupçonné aux Etats-Unis d’avoir été espionné par une entrepreneuse chinoise dans le cadre d’une relation sentimentale",
-      "url": "https://www.lemonde.fr/international/article/2026/11/08/jensen-huang-le-patron-de-nvidia-soupconne-aux-etats-unis-d-avoir-ete-espionne-par-une-entrepreneuse-chinoise-dans-le-cadre-d-une-relation-sentimentale_6808394_3210.html",
-      "summary": "Selon des révélations du « New York Times », Jensen Huang, dont l’entreprise fabrique des puces de pointe indispensables au développement de l’intelligence artificielle, aurait entretenu des rapports avec une cheffe d’entreprise, Alice Huan",
-      "date": "2026-11-08T04:55:15+00:00",
-      "source": "Le Monde IA",
+      "title": "Avion espion de la Nasa, changement des heures creuses EDF, preuve mathématique d’OpenAI imminente – le récap’ sciences de la semaine",
+      "url": "https://www.numerama.com/sciences/2369401-avion-espion-de-la-nasa-changement-des-heures-creuses-edf-preuve-mathematique-dopenai-imminente-le-recap-sciences-de-la-semaine.html",
+      "summary": "La Nasa jette un froid sur le mythique avion SR-71 Blackbird, EDF déploie de nouveaux horaires d'heures creuses auprès de ses clients, la preuve mathématique secrète d'OpenAI bientôt publiée : c'était l'actualité scientifique de la semaine.",
+      "date": "2026-11-08T08:15:00+00:00",
+      "source": "Numerama",
       "topic": "ia"
     },
     {
-      "title": "Root Cyclone, Optic Fluffy, Hyperdymium… rien de tout ça : juste un aspirateur balai pas cher et efficace",
-      "url": "https://www.01net.com/bons-plans/root-cyclone-optic-fluffy-hyperdymium-rien-de-tout-ca-juste-un-aspirateur-balai-pas-cher-et-efficace.html",
-      "summary": "Les aspirateurs balais, c'est très pratique au quotidien. Dyson représente la crème, c'est indéniable. Mais en 2026, tout le monde n'a pas le budget pour s'offrir un modèle à 700 euros. Et c'est là qu'un modèle comme le Laresar V11 NEW pren",
-      "date": "2026-11-07T21:05:39+00:00",
+      "title": "Cette faille peut bloquer votre smartphone et vous forcer à tout effacer : Google n’est pas pressé de la corriger",
+      "url": "https://www.01net.com/actualites/faille-menace-faire-planter-votre-smartphone-android-google-pas-presse-corriger.html",
+      "summary": "Les chercheurs de Bitdefender viennent de lever le voile sur GhostMap, une faille qui menace de bloquer un smartphone Android. Il suffit en fait d’installer une application piégée pour se retrouver piégé dans une boucle de plantages. Google",
+      "date": "2026-11-08T10:00:37+00:00",
       "source": "01net",
       "topic": "cybersecurite"
     }
