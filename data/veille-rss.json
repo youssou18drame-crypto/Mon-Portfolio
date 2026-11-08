@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:53:47.276333+00:00",
+  "updated_at": "2026-11-08T06:06:13.589014+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,11 +36,11 @@
   ],
   "articles": [
     {
-      "title": "Actualité : La Chine aurait recruté une dirigeante très proche de Jensen Huang pour espionner le patron de Nvidia et tenter d’accéder à ses meilleures puces IA",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/la-chine-aurait-recrute-une-femme-tres-proche-de-jensen-huang-pour-espionner-le-patron-de-nvidia-et-tenter-d-acceder-a-ses-meilleures-puces-ia-n266988.html",
-      "summary": "Jensen Huang, PDG de Nvidia, serait au centre d’une vaste affaire d’espionnage. Selon plusieurs enquêtes, la Chine aurait recruté une puissante dirigeante d’entreprise pour recueillir des informations sur lui et ses puces IA. Le but aurait ",
-      "date": "2026-11-07T20:30:00+01:00",
-      "source": "Les Numériques",
+      "title": "Jensen Huang, le patron de Nvidia, soupçonné aux Etats-Unis d’avoir été espionné par une entrepreneuse chinoise dans le cadre d’une relation sentimentale",
+      "url": "https://www.lemonde.fr/international/article/2026/11/08/jensen-huang-le-patron-de-nvidia-soupconne-aux-etats-unis-d-avoir-ete-espionne-par-une-entrepreneuse-chinoise-dans-le-cadre-d-une-relation-sentimentale_6808394_3210.html",
+      "summary": "Selon des révélations du « New York Times », Jensen Huang, dont l’entreprise fabrique des puces de pointe indispensables au développement de l’intelligence artificielle, aurait entretenu des rapports avec une cheffe d’entreprise, Alice Huan",
+      "date": "2026-11-08T04:55:15+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
