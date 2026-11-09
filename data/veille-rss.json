@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:38:28.523536+00:00",
+  "updated_at": "2026-11-09T22:24:59.844239+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Plus besoin d’applications : ce smartphone IA veut tout faire à votre place",
-      "url": "https://www.01net.com/actualites/plus-besoin-dapplications-ce-smartphone-ia-veut-tout-faire-a-votre-place.html",
-      "summary": "La startup Cyclon a dévoilé un smartphone qui promet de mettre un terme au jonglage entre différentes applications. L'utilisateur doit simplement fournir des instructions : l'IA se charge d'opérer les différentes manœuvres sur le téléphone.",
-      "date": "2026-11-09T06:34:40+00:00",
-      "source": "01net",
+      "title": "Omnissa veut étendre la gestion des terminaux aux agents IA",
+      "url": "https://www.lemondeinformatique.fr/applications-developpement/omnissa-veut-etendre-la-gestion-des-terminaux-aux-",
+      "summary": "Nommé CEO d’Omnissa en septembre dernier, Amit Singh entend positionner l’éditeur sur la sécurisation des environnements de travail à l’heure des agents IA. Pour lui, les outils de gestion des terminaux doivent désormais permettre de découv",
+      "date": "2026-11-09T15:12:03+00:00",
+      "source": "Le Monde Informatique",
       "topic": "ia"
     },
     {
-      "title": "Après un été de cyberattaques et un an de blocage, la loi « résilience » de retour à l’Assemblée nationale",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/09/apres-un-ete-de-cyberattaques-et-un-an-de-blocage-la-loi-resilience-de-retour-a-l-assemblee-nationale_6808612_4408996.html",
-      "summary": "Le gouvernement espère faire voter ce texte très attendu en matière de cybersécurité, sans son article 16 bis, qui hérisse les services de renseignement. Pour ce faire, il a annoncé renoncer à l’introduction de portes dérobées dans les mess",
-      "date": "2026-11-09T05:00:42+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Cyberattaques contre les supermarchés : la France pense avoir démasqué les coupables",
+      "url": "https://www.01net.com/actualites/cyberattaques-contre-supermarches-france-demasque-coupables.html",
+      "summary": "La justice française soupçonne des hackers iraniens d'avoir piraté les frigos de centaines de supermarchés. Le parquet de Paris a même ouvert une information judiciaire contre plusieurs individus, considérés comme des cybercriminels mandaté",
+      "date": "2026-11-09T17:01:35+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
