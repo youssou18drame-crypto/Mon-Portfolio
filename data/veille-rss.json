@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:23:05.988170+00:00",
+  "updated_at": "2026-11-10T19:46:30.161377+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Actualité : \"Presque une IA générale\" : Anthropic lance Claude Fable 5.2, qui a codé un système d'exploitation en huit jours",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/presque-une-ia-generale-anthropic-lance-claude-fable-5-2-qui-a-code-un-systeme-d-exploitation-en-huit-jours-n267128.html",
-      "summary": "Anthropic sort son nouveau champion. Claude Fable 5.2 répond plus vite, coûte moins cher et prend la première place du classement indépendant de référence. Pendant ses essais, il a bâti seul un système d'exploitation en huit jours et démont",
-      "date": "2026-11-10T08:00:00+01:00",
-      "source": "Les Numériques",
+      "title": "Nvidia : le scandale d’espionnage fait chuter de plus de 6 % à Wall Street l’entreprise américaine, qui perd sa place de deuxième capitalisation mondiale",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/10/nvidia-le-scandale-d-espionnage-fait-chuter-de-plus-de-6-a-wall-street-l-entreprise-americaine-qui-perd-sa-place-de-deuxieme-capitalisation-mondiale_6808895_3234.html",
+      "summary": "Depuis l’éclatement de l’affaire ce week-end, la multinationale américaine des semi-conducteurs a vu s’envoler plus de 400 milliards de dollars de capitalisation boursière, dans un contexte également marqué par les inquiétudes sur le secteu",
+      "date": "2026-11-10T18:43:56+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "L’Australie va renforcer sa régulation de l’IA après un piratage de plateformes gouvernementales par un modèle d’OpenAI",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/10/l-australie-va-renforcer-sa-regulation-de-l-ia-apres-un-piratage-de-plateformes-gouvernementales-par-un-modele-d-openai_6808770_4408996.html",
-      "summary": "Une nouvelle autorité de régulation va être créée dans le but de mieux encadrer le secteur. Cela survient après qu’un agent autonome d’OpenAI a infiltré un site Internet du gouvernement australien en juin.",
-      "date": "2026-11-10T03:41:33+00:00",
-      "source": "Le Monde IA",
+      "title": "Cyberattaque contre des réfrigérateurs de supermarchés : l’Iran rejette « les accusations infondées » de la France",
+      "url": "https://www.lemonde.fr/international/article/2026/11/10/cyberattaque-contre-des-refrigerateurs-de-supermarches-l-iran-rejette-les-accusations-infondees-de-la-france_6808797_3211.html",
+      "summary": "La France a officiellement attribué à une unité cyber relevant du corps des Gardiens de la révolution de la République islamique la responsabilité de la cyberattaque d’ampleur contre des contrôleurs de réfrigération de supermarchés en octob",
+      "date": "2026-11-10T13:34:05+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
