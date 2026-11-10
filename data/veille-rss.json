@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T22:24:59.844239+00:00",
+  "updated_at": "2026-11-10T07:23:05.988170+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Omnissa veut étendre la gestion des terminaux aux agents IA",
-      "url": "https://www.lemondeinformatique.fr/applications-developpement/omnissa-veut-etendre-la-gestion-des-terminaux-aux-",
-      "summary": "Nommé CEO d’Omnissa en septembre dernier, Amit Singh entend positionner l’éditeur sur la sécurisation des environnements de travail à l’heure des agents IA. Pour lui, les outils de gestion des terminaux doivent désormais permettre de découv",
-      "date": "2026-11-09T15:12:03+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Actualité : \"Presque une IA générale\" : Anthropic lance Claude Fable 5.2, qui a codé un système d'exploitation en huit jours",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/presque-une-ia-generale-anthropic-lance-claude-fable-5-2-qui-a-code-un-systeme-d-exploitation-en-huit-jours-n267128.html",
+      "summary": "Anthropic sort son nouveau champion. Claude Fable 5.2 répond plus vite, coûte moins cher et prend la première place du classement indépendant de référence. Pendant ses essais, il a bâti seul un système d'exploitation en huit jours et démont",
+      "date": "2026-11-10T08:00:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Cyberattaques contre les supermarchés : la France pense avoir démasqué les coupables",
-      "url": "https://www.01net.com/actualites/cyberattaques-contre-supermarches-france-demasque-coupables.html",
-      "summary": "La justice française soupçonne des hackers iraniens d'avoir piraté les frigos de centaines de supermarchés. Le parquet de Paris a même ouvert une information judiciaire contre plusieurs individus, considérés comme des cybercriminels mandaté",
-      "date": "2026-11-09T17:01:35+00:00",
-      "source": "01net",
+      "title": "L’Australie va renforcer sa régulation de l’IA après un piratage de plateformes gouvernementales par un modèle d’OpenAI",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/10/l-australie-va-renforcer-sa-regulation-de-l-ia-apres-un-piratage-de-plateformes-gouvernementales-par-un-modele-d-openai_6808770_4408996.html",
+      "summary": "Une nouvelle autorité de régulation va être créée dans le but de mieux encadrer le secteur. Cela survient après qu’un agent autonome d’OpenAI a infiltré un site Internet du gouvernement australien en juin.",
+      "date": "2026-11-10T03:41:33+00:00",
+      "source": "Le Monde IA",
       "topic": "cybersecurite"
     }
   ]
