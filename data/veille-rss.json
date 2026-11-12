@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:15:40.376679+00:00",
+  "updated_at": "2026-11-12T19:57:35.538256+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "ZD Tech : Pourquoi vous allez bientôt remplacer Google par ChatGPT au travail",
-      "url": "https://www.zdnet.fr/actualites/zd-tech-pourquoi-vous-allez-bientot-remplacer-google-par-chatgpt-au-travail-507399.htm#xtor=RSS-1",
-      "summary": "OpenAI bouleverse la recherche en ligne. Avec 1,2 milliard d'utilisateurs, ChatGPT traite désormais 20 % du volume de Google sur les requêtes en temps réel. Une bascule qui force les entreprises à repenser d'urgence leur stratégie de référe",
-      "date": "2026-11-12T08:11:43+00:00",
-      "source": "ZDNet France",
+      "title": "Actualité : Elon Musk a fait modifier des moteurs de Boeing 747 pour alimenter son centre de données IA, leur pollution pousse des habitants à saisir les autori",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/elon-musk-a-fait-modifier-des-moteurs-de-boeing-747-pour-alimenter-son-centre-de-donnees-ia-leur-pollution-pousse-des-habitants-a-saisir-les-autorites-257-n266760.html",
+      "summary": "Ce sont huit turbines de moteurs d’avion General Electric autrefois montées sur des Boeing 747 et 767 que xAI, l’entreprise d’Elon Musk, exploite pour alimenter son immense centre de données Colossus 2. Si cette modification permet d’apport",
+      "date": "2026-11-12T17:18:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Fini les sols dégueus : cet aspirateur laveur leur met un sacré coup de propre (-75 %) 🤩",
-      "url": "https://www.01net.com/bons-plans/fini-les-sols-degueus-cet-aspirateur-laveur-leur-met-un-sacre-coup-de-propre-75.html",
-      "summary": "Le Tineco Floor One S7 Steam est un aspirateur laveur premium. Il aspire la poussière, lave le sol et se nettoie seul, sans oublier son mode vapeur qui décrasse toute la saleté sur vos sols. Pour un tarif dingue de 177 euros au Singles Day ",
-      "date": "2026-11-12T07:06:48+00:00",
+      "title": "« Un problème au niveau d’iOS » : Binance alerte sur une faille de l’iPhone qui menace tous les portefeuilles crypto",
+      "url": "https://www.01net.com/actualites/un-probleme-au-niveau-dios-binance-alerte-sur-une-faille-de-liphone-qui-menace-tous-les-portefeuilles-crypto.html",
+      "summary": "Binance met en garde les propriétaires d'iPhone. Une faille, baptisée worse_query, vient d’être découverte dans le système d’exploitation iOS. Elle permet à une application malveillante de lire les fichiers des autres applications, y compri",
+      "date": "2026-11-12T16:31:07+00:00",
       "source": "01net",
       "topic": "cybersecurite"
     }
