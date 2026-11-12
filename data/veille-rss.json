@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T19:38:27.805460+00:00",
+  "updated_at": "2026-11-12T07:15:40.376679+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Arrêter les dégâts « dans les 35 secondes » : OpenAI dévoile le kill switch censé stopper ses IA quand elles dérapent",
-      "url": "https://www.numerama.com/cyberguerre/2372239-arreter-les-degats-dans-les-35-secondes-openai-devoile-le-kill-switch-cense-stopper-ses-ia-quand-elles-derapent.html",
-      "summary": "OpenAI a présenté le 10 novembre Control Room, un système central qui suit toutes les tâches de ses chercheurs utilisant ses modèles d’IA.",
-      "date": "2026-11-11T13:35:38+00:00",
-      "source": "Numerama",
+      "title": "ZD Tech : Pourquoi vous allez bientôt remplacer Google par ChatGPT au travail",
+      "url": "https://www.zdnet.fr/actualites/zd-tech-pourquoi-vous-allez-bientot-remplacer-google-par-chatgpt-au-travail-507399.htm#xtor=RSS-1",
+      "summary": "OpenAI bouleverse la recherche en ligne. Avec 1,2 milliard d'utilisateurs, ChatGPT traite désormais 20 % du volume de Google sur les requêtes en temps réel. Une bascule qui force les entreprises à repenser d'urgence leur stratégie de référe",
+      "date": "2026-11-12T08:11:43+00:00",
+      "source": "ZDNet France",
       "topic": "ia"
     },
     {
-      "title": "Les vulnérabilités cachées des intelligences artificielles",
-      "url": "https://www.lemonde.fr/sciences/article/2026/11/11/les-vulnerabilites-cachees-des-intelligences-artificielles_6808954_1650684.html",
-      "summary": "L’alignement, l’affinage et la distillation des grands modèles de langage peuvent modifier leur comportement de manière inattendue. Dans leur carte blanche au « Monde », Jean Ponce et Isabelle Ryl, professeurs d’informatique, s’intéressent ",
-      "date": "2026-11-11T10:30:02+00:00",
-      "source": "Le Monde IA",
+      "title": "Fini les sols dégueus : cet aspirateur laveur leur met un sacré coup de propre (-75 %) 🤩",
+      "url": "https://www.01net.com/bons-plans/fini-les-sols-degueus-cet-aspirateur-laveur-leur-met-un-sacre-coup-de-propre-75.html",
+      "summary": "Le Tineco Floor One S7 Steam est un aspirateur laveur premium. Il aspire la poussière, lave le sol et se nettoie seul, sans oublier son mode vapeur qui décrasse toute la saleté sur vos sols. Pour un tarif dingue de 177 euros au Singles Day ",
+      "date": "2026-11-12T07:06:48+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
