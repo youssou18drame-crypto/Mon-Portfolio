@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:49:20.152890+00:00",
+  "updated_at": "2026-11-13T19:46:08.644838+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Nvidia : Hugging Face défend l’IA open source après le départ de Jensen Huang",
-      "url": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-hugging-face-defend-l-ia-open-source-apres-",
-      "summary": "Le départ de Jensen Huang de la direction de Nvidia fait réagir Clément Delangue, cofondateur français et directeur général de Hugging Face. Alors que le fabricant américain doit racheter la plateforme de modèles d’intelligence artificielle",
-      "date": "2026-11-13T06:38:16+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Actualité : Nvidia : 1,5 million de puces IA détournées vers la Chine à l'origine du départ de Jensen Huang ?",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/nvidia-1-5-million-de-puces-ia-detournees-vers-la-chine-a-l-origine-du-depart-de-jensen-huang-n267450.html",
+      "summary": "Derrière la démission brutale de Jensen Huang, ex-patron de Nvidia, des analystes pointent un vaste trafic de 1,5 million de puces IA interdites vers la Chine.",
+      "date": "2026-11-13T17:28:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "« Un problème au niveau d’iOS » : Binance alerte sur une faille de l’iPhone qui menace tous les portefeuilles crypto",
-      "url": "https://www.01net.com/actualites/un-probleme-au-niveau-dios-binance-alerte-sur-une-faille-de-liphone-qui-menace-tous-les-portefeuilles-crypto.html",
-      "summary": "Binance met en garde les propriétaires d'iPhone. Une faille, baptisée worse_query, vient d’être découverte dans le système d’exploitation iOS. Elle permet à une application malveillante de lire les fichiers des autres applications, y compri",
-      "date": "2026-11-12T16:31:07+00:00",
-      "source": "01net",
+      "title": "Cybersécurité : OpenAI enrichit Daybreak de deux outils d’IA pour traquer les failles",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-openai-enrichit-daybreak-de-deux-out",
+      "summary": "OpenAI étoffe sa plateforme de cybersécurité Daybreak avec deux solutions reposant sur des agents d’intelligence artificielle. Présentés le 12 novembre 2026, Daybreak Red Team et Daybreak Defense Factory visent respectivement à automatiser ",
+      "date": "2026-11-13T06:37:37+00:00",
+      "source": "Le Monde Informatique",
       "topic": "cybersecurite"
     }
   ]
