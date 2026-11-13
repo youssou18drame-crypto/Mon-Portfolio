@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:57:35.538256+00:00",
+  "updated_at": "2026-11-13T06:49:20.152890+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,11 +36,11 @@
   ],
   "articles": [
     {
-      "title": "Actualité : Elon Musk a fait modifier des moteurs de Boeing 747 pour alimenter son centre de données IA, leur pollution pousse des habitants à saisir les autori",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/elon-musk-a-fait-modifier-des-moteurs-de-boeing-747-pour-alimenter-son-centre-de-donnees-ia-leur-pollution-pousse-des-habitants-a-saisir-les-autorites-257-n266760.html",
-      "summary": "Ce sont huit turbines de moteurs d’avion General Electric autrefois montées sur des Boeing 747 et 767 que xAI, l’entreprise d’Elon Musk, exploite pour alimenter son immense centre de données Colossus 2. Si cette modification permet d’apport",
-      "date": "2026-11-12T17:18:00+01:00",
-      "source": "Les Numériques",
+      "title": "Nvidia : Hugging Face défend l’IA open source après le départ de Jensen Huang",
+      "url": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-hugging-face-defend-l-ia-open-source-apres-",
+      "summary": "Le départ de Jensen Huang de la direction de Nvidia fait réagir Clément Delangue, cofondateur français et directeur général de Hugging Face. Alors que le fabricant américain doit racheter la plateforme de modèles d’intelligence artificielle",
+      "date": "2026-11-13T06:38:16+00:00",
+      "source": "Le Monde Informatique",
       "topic": "ia"
     },
     {
