@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:28:44.540012+00:00",
+  "updated_at": "2026-11-14T18:07:42.482575+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
-      "url": "https://www.lemonde.fr/international/article/2026/11/13/ia-les-europeens-au-defi-de-s-entendre-pour-rester-dans-la-course-et-mieux-la-reguler_6809387_3210.html",
-      "summary": "Réunis à Dublin, les Vingt-Sept se sont penchés sur les défis de l’intelligence artificielle, entre ambitions de souveraineté, régulation, et exigences budgétaires.",
-      "date": "2026-11-13T20:58:04+00:00",
-      "source": "Le Monde IA",
+      "title": "Pour écouler les surplus de Nvidia, Jensen Huang aurait financé des start-up IA",
+      "url": "https://www.01net.com/actualites/pour-ecouler-les-surplus-de-nvidia-jensen-huang-aurait-finance-des-start-up-ia.html",
+      "summary": "Trois mois avant la démission de Jensen Huang, une réunion houleuse l'opposait à sa directrice financière. Au cœur du différend : des montagnes de puces et de mémoire commandées d'avance, et des clients incapables de les payer.",
+      "date": "2026-11-14T14:15:16+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "Ce que l’on sait des cyberattaques contre des réfrigérateurs de supermarchés",
+      "title": "Ce que l’on sait de la cyberattaque contre des frigos de supermarchés en France",
       "url": "https://www.lemonde.fr/videos/video/2026/11/14/ce-que-l-on-sait-des-cyberattaques-contre-des-refrigerateurs-de-supermarches_6809687_1669088.html",
       "summary": "Ces dernières semaines, des centaines de réfrigérateurs de supermarchés en France et en Europe ont été piratés. Les hackers sont parvenus à prendre le contrôle des logiciels de gestion à distance des appareils.",
-      "date": "2026-11-14T05:00:15+00:00",
+      "date": "2026-11-14T05:00:08+00:00",
       "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
