@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:46:08.644838+00:00",
+  "updated_at": "2026-11-14T06:28:44.540012+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Actualité : Nvidia : 1,5 million de puces IA détournées vers la Chine à l'origine du départ de Jensen Huang ?",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/nvidia-1-5-million-de-puces-ia-detournees-vers-la-chine-a-l-origine-du-depart-de-jensen-huang-n267450.html",
-      "summary": "Derrière la démission brutale de Jensen Huang, ex-patron de Nvidia, des analystes pointent un vaste trafic de 1,5 million de puces IA interdites vers la Chine.",
-      "date": "2026-11-13T17:28:00+01:00",
-      "source": "Les Numériques",
+      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
+      "url": "https://www.lemonde.fr/international/article/2026/11/13/ia-les-europeens-au-defi-de-s-entendre-pour-rester-dans-la-course-et-mieux-la-reguler_6809387_3210.html",
+      "summary": "Réunis à Dublin, les Vingt-Sept se sont penchés sur les défis de l’intelligence artificielle, entre ambitions de souveraineté, régulation, et exigences budgétaires.",
+      "date": "2026-11-13T20:58:04+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "Cybersécurité : OpenAI enrichit Daybreak de deux outils d’IA pour traquer les failles",
-      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-openai-enrichit-daybreak-de-deux-out",
-      "summary": "OpenAI étoffe sa plateforme de cybersécurité Daybreak avec deux solutions reposant sur des agents d’intelligence artificielle. Présentés le 12 novembre 2026, Daybreak Red Team et Daybreak Defense Factory visent respectivement à automatiser ",
-      "date": "2026-11-13T06:37:37+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Ce que l’on sait des cyberattaques contre des réfrigérateurs de supermarchés",
+      "url": "https://www.lemonde.fr/videos/video/2026/11/14/ce-que-l-on-sait-des-cyberattaques-contre-des-refrigerateurs-de-supermarches_6809687_1669088.html",
+      "summary": "Ces dernières semaines, des centaines de réfrigérateurs de supermarchés en France et en Europe ont été piratés. Les hackers sont parvenus à prendre le contrôle des logiciels de gestion à distance des appareils.",
+      "date": "2026-11-14T05:00:15+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
