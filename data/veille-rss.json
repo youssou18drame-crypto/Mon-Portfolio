@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T18:07:42.482575+00:00",
+  "updated_at": "2026-11-14T22:27:51.974797+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -44,10 +44,10 @@
       "topic": "ia"
     },
     {
-      "title": "Ce que l’on sait de la cyberattaque contre des frigos de supermarchés en France",
-      "url": "https://www.lemonde.fr/videos/video/2026/11/14/ce-que-l-on-sait-des-cyberattaques-contre-des-refrigerateurs-de-supermarches_6809687_1669088.html",
-      "summary": "Ces dernières semaines, des centaines de réfrigérateurs de supermarchés en France et en Europe ont été piratés. Les hackers sont parvenus à prendre le contrôle des logiciels de gestion à distance des appareils.",
-      "date": "2026-11-14T05:00:08+00:00",
+      "title": "Cyberattaque : Maileva, filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/14/cyberattaque-maileva-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-touchant-22-millions-de-personnes_6810545_4408996.html",
+      "summary": "Le groupe a annoncé avoir déposé plainte après cette cyberattaque qui s’est produite mi-septembre. Une enquête judiciaire est en cours.",
+      "date": "2026-11-14T20:05:18+00:00",
       "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
