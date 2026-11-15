@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T06:37:55.438148+00:00",
+  "updated_at": "2026-11-15T18:53:32.329579+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "Pour écouler les surplus de Nvidia, Jensen Huang aurait financé des start-up IA",
-      "url": "https://www.01net.com/actualites/pour-ecouler-les-surplus-de-nvidia-jensen-huang-aurait-finance-des-start-up-ia.html",
-      "summary": "Trois mois avant la démission de Jensen Huang, une réunion houleuse l'opposait à sa directrice financière. Au cœur du différend : des montagnes de puces et de mémoire commandées d'avance, et des clients incapables de les payer.",
-      "date": "2026-11-14T14:15:16+00:00",
-      "source": "01net",
+      "title": "Microsoft bloque des mails sans prévenir, Google fait prouver la sécurité de Signal par 80 agents, OpenAI installe un bouton stop sur ses IA : on vous raconte l",
+      "url": "https://www.numerama.com/tech/2374157-microsoft-bloque-des-mails-sans-prevenir-google-fait-prouver-la-securite-de-signal-par-80-agents-openai-installe-un-bouton-stop-sur-ses-ia-on-vous-raconte-la-semaine-cyberguerre.html",
+      "summary": "Trois actualités à retenir cette semaine dans le cyberespace, un durcissement discret de Microsoft qui fait rejeter les mails de petites structures vers Hotmail et Outlook, Google qui démontre mathématiquement, avec des agents IA, que le ch",
+      "date": "2026-11-15T17:10:00+00:00",
+      "source": "Numerama",
       "topic": "ia"
     },
     {
-      "title": "Sur les traces de « ChatNoir » et « Casquette », le duo d’adolescents soupçonnés d’avoir piraté le site des impôts",
-      "url": "https://www.lemonde.fr/societe/article/2026/11/15/sur-les-traces-de-chatnoir-et-casquette-le-duo-d-adolescents-soupconnes-d-avoir-pirate-le-site-des-impots_6810985_3224.html",
-      "summary": "Ces deux jeunes Français de 18 et 16 ans sont mis en examen dans de multiples procédures, dont les piratages d’ampleur du fisc et de l’éducation nationale durant l’été, et sont aussi suspectés d’avoir ciblé Free et BFM-TV. Ils signaient leu",
-      "date": "2026-11-15T05:15:09+00:00",
+      "title": "Cyberattaque contre Maileva, filiale du groupe La Poste : une enquête ouverte et confiée à la Brigade de lutte contre la cybercriminalité",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/15/cyberattaque-contre-maileva-filiale-du-groupe-la-poste-une-enquete-ouverte-et-confiee-a-la-brigade-de-lutte-contre-la-cybercriminalite_6811036_4408996.html",
+      "summary": "Les investigations ont été ouvertes pour « atteinte à un système de traitement automatisé de données » par la section cybercriminalité du parquet parisien et confiées à la BL2C, service d’enquête spécialisé. Cette cyberattaque a conduit au ",
+      "date": "2026-11-15T16:40:29+00:00",
       "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
