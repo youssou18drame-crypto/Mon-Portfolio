@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T18:53:32.329579+00:00",
+  "updated_at": "2026-11-16T06:35:06.056733+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,11 +36,11 @@
   ],
   "articles": [
     {
-      "title": "Microsoft bloque des mails sans prévenir, Google fait prouver la sécurité de Signal par 80 agents, OpenAI installe un bouton stop sur ses IA : on vous raconte l",
-      "url": "https://www.numerama.com/tech/2374157-microsoft-bloque-des-mails-sans-prevenir-google-fait-prouver-la-securite-de-signal-par-80-agents-openai-installe-un-bouton-stop-sur-ses-ia-on-vous-raconte-la-semaine-cyberguerre.html",
-      "summary": "Trois actualités à retenir cette semaine dans le cyberespace, un durcissement discret de Microsoft qui fait rejeter les mails de petites structures vers Hotmail et Outlook, Google qui démontre mathématiquement, avec des agents IA, que le ch",
-      "date": "2026-11-15T17:10:00+00:00",
-      "source": "Numerama",
+      "title": "IA militaire : comment la France tente d’entrouvrir la porte à une régulation",
+      "url": "https://www.lemonde.fr/international/article/2026/11/16/ia-militaire-comment-la-france-tente-d-entrouvrir-la-porte-a-une-regulation_6811534_3210.html",
+      "summary": "Alors que doit avoir lieu, à Genève, du 16 au 20 novembre, la 7ᵉ Conférence d’examen de la Convention sur certaines armes classiques, plusieurs capitales européennes, dont Paris, aimeraient qu’un instrument de contrôle des systèmes d’armes ",
+      "date": "2026-11-16T06:30:05+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
