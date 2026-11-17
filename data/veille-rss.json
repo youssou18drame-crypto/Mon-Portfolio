@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T07:58:11.485237+00:00",
+  "updated_at": "2026-11-17T20:58:08.980021+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Puces Nvidia : les États-Unis verrouillent l’accès à distance de la Chine via les data centers étrangers",
-      "url": "https://www.zdnet.fr/actualites/puces-nvidia-les-etats-unis-verrouillent-lacces-a-distance-de-la-chine-via-les-data-centers-etrangers-507985.htm#xtor=RSS-1",
-      "summary": "Washington impose une licence aux data centers étrangers qui louent de la puissance de calcul à des entreprises chinoises, et une autorisation pour exporter des puces avancées vers cinq pays à risque, dont Singapour. Objectif : empêcher Pék",
-      "date": "2026-11-17T08:11:17+00:00",
-      "source": "ZDNet France",
+      "title": "Jensen Huang, ex-patron de Nvidia, sera entendu au Congrès, le 1ᵉʳ décembre, sur sa liaison avec une Chinoise soupçonnée d’espionnage",
+      "url": "https://www.lemonde.fr/international/article/2026/11/17/jensen-huang-ex-patron-de-nvidia-sera-entendu-au-congres-le-1-decembre-sur-sa-liaison-avec-une-chinoise-soupconnee-d-espionnage_6813021_3210.html",
+      "summary": "Le cofondateur de la multinationale américaine des semi-conducteurs a aussi déclaré, sur X, se tenir prêt à revenir à la tête de l’entreprise si son conseil d’administration le décidait. Il a démissionné le 12 novembre après la révélation d",
+      "date": "2026-11-17T17:42:16+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "Le responsable du piratage massif de GTA 6 plaide coupable",
-      "url": "https://www.numerama.com/pop-culture/2375937-le-responsable-du-piratage-massif-de-gta-6-plaide-coupable.html",
-      "summary": "Ce lundi 16 novembre, trois jours avant la sortie de GTA 6, Arion Kurtaj, 21 ans, a plaidé coupable du piratage de Rockstar Games qu'il a commis en 2022. Jugé inapte à suivre un procès classique, il avait d'abord été placé dans un hôpital p",
-      "date": "2026-11-17T07:31:59+00:00",
-      "source": "Numerama",
+      "title": "Google a découvert des agents IA pirates à l’assaut de plusieurs sites français",
+      "url": "https://www.01net.com/actualites/google-decouvert-agents-ia-pirates-assaut-plusieurs-sites-francais.html",
+      "summary": "Google a découvert que des pirates ont confié une série de cyberattaques à l'intelligence artificielle. Tout le travail de piratage, de la recherche de failles jusqu'à l'attaque, a été pris en charge par des agents IA taillés pour le pirata",
+      "date": "2026-11-17T16:01:01+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
