@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T22:07:59.029599+00:00",
+  "updated_at": "2026-11-17T07:58:11.485237+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Nvidia : les Etats-Unis cherchent à bloquer l’accès de la Chine aux puces américaines par le biais de pays tiers",
-      "url": "https://www.lemonde.fr/international/article/2026/11/16/nvidia-les-etats-unis-cherchent-a-bloquer-l-acces-de-la-chine-aux-puces-americaines-par-le-biais-de-pays-tiers_6812260_3210.html",
-      "summary": "Les règles mises en place récemment par le gouvernement Trump instaurent notamment une nouvelle autorisation nécessaire pour l’exportation de semi-conducteurs américains en Indonésie, en Malaisie, en Thaïlande, au Brésil et à Singapour.",
-      "date": "2026-11-16T18:30:08+00:00",
-      "source": "Le Monde IA",
+      "title": "Puces Nvidia : les États-Unis verrouillent l’accès à distance de la Chine via les data centers étrangers",
+      "url": "https://www.zdnet.fr/actualites/puces-nvidia-les-etats-unis-verrouillent-lacces-a-distance-de-la-chine-via-les-data-centers-etrangers-507985.htm#xtor=RSS-1",
+      "summary": "Washington impose une licence aux data centers étrangers qui louent de la puissance de calcul à des entreprises chinoises, et une autorisation pour exporter des puces avancées vers cinq pays à risque, dont Singapour. Objectif : empêcher Pék",
+      "date": "2026-11-17T08:11:17+00:00",
+      "source": "ZDNet France",
       "topic": "ia"
     },
     {
-      "title": "Quelle riposte pour la France après la cyberattaque contre les réfrigérateurs de supermarché attribuée à l’Iran ?",
-      "url": "https://www.lemonde.fr/international/article/2026/11/16/quelle-riposte-pour-la-france-apres-la-cyberattaque-contre-les-refrigerateurs-de-supermarches-attribuee-a-l-iran_6812232_3210.html",
-      "summary": "L’attribution de l’attaque contre les systèmes de froid de nombreux supermarchés français à l’Iran n’est qu’une première réponse de Paris. Elle s’inscrit dans une stratégie précise, et était un préalable nécessaire à d’éventuelles contre-me",
-      "date": "2026-11-16T17:52:41+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Le responsable du piratage massif de GTA 6 plaide coupable",
+      "url": "https://www.numerama.com/pop-culture/2375937-le-responsable-du-piratage-massif-de-gta-6-plaide-coupable.html",
+      "summary": "Ce lundi 16 novembre, trois jours avant la sortie de GTA 6, Arion Kurtaj, 21 ans, a plaidé coupable du piratage de Rockstar Games qu'il a commis en 2022. Jugé inapte à suivre un procès classique, il avait d'abord été placé dans un hôpital p",
+      "date": "2026-11-17T07:31:59+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
