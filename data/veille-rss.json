@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T20:58:08.980021+00:00",
+  "updated_at": "2026-11-18T07:33:26.748701+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -44,10 +44,10 @@
       "topic": "ia"
     },
     {
-      "title": "Google a découvert des agents IA pirates à l’assaut de plusieurs sites français",
-      "url": "https://www.01net.com/actualites/google-decouvert-agents-ia-pirates-assaut-plusieurs-sites-francais.html",
-      "summary": "Google a découvert que des pirates ont confié une série de cyberattaques à l'intelligence artificielle. Tout le travail de piratage, de la recherche de failles jusqu'à l'attaque, a été pris en charge par des agents IA taillés pour le pirata",
-      "date": "2026-11-17T16:01:01+00:00",
+      "title": "IKEA, ASOS, Zoom… Plus de 175 sites piratés ont peut-être tenté de voler vos données bancaires",
+      "url": "https://www.01net.com/actualites/ikea-asos-zoom-plus-de-175-sites-pirates-ont-peut-etre-tente-de-voler-vos-donnees-bancaires.html",
+      "summary": "178 sites d'entreprises et d'organisations, dont IKEA, ASOS, HSBC et Zoom, ont été exposés à un malware à la suite d'une compromission de la plateforme Optimizely. Ce malware était capable de voler des données bancaires, de remplacer les ad",
+      "date": "2026-11-18T06:30:05+00:00",
       "source": "01net",
       "topic": "cybersecurite"
     }
