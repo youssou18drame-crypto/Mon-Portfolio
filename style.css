@@ -1283,3 +1283,34 @@ a.whatsapp-float img {
 
 /* Carte SLAM unique sur toute la largeur */
 #bts-sio .bts-options { grid-template-columns: minmax(0, 1fr); }
+
+
+/* Issue #1 — Affichage mobile des expériences et du tableau de synthèse */
+@media (max-width: 700px) {
+  #experiences .container, #synthese .container { min-width: 0; }
+  #experiences .timeline { width: 100%; max-width: 100%; margin: 24px auto; }
+  #experiences .timeline::after, #experiences .timeline-item::after { display: none; }
+  #experiences .timeline-item { width: 100%; min-width: 0; padding: 0; margin-bottom: 22px; }
+  #experiences .timeline-content { min-width: 0; width: 100%; padding: 16px; overflow-wrap: anywhere; }
+  #experiences .timeline-content img { max-width: 100%; height: auto; }
+  #experiences .timeline-content figure, #experiences .timeline-content button { max-width: 100%; min-width: 0; }
+  #experiences .timeline-content figcaption { font-size: .9rem !important; line-height: 1.55; overflow-wrap: anywhere; }
+  #experiences .timeline-content .btn { max-width: 100%; white-space: normal; text-align: center; }
+  #experiences .preuves-grid { display: grid !important; grid-template-columns: minmax(0,1fr) !important; gap: 16px !important; }
+  #experiences .preuves-grid img { transform: none !important; object-fit: contain; }
+  #experiences .preuves-grid figure button span { aspect-ratio: auto !important; overflow: visible !important; }
+
+  #synthese .table-container { width: 100%; max-width: 100%; padding: 0; overflow: visible; }
+  #synthese .synthese-table, #synthese .synthese-table tbody, #synthese .synthese-table tr, #synthese .synthese-table td { display: block; width: 100%; min-width: 0; }
+  #synthese .synthese-table thead { display: none; }
+  #synthese .synthese-table tbody tr { margin-bottom: 16px; padding: 12px 14px; border: 1px solid rgba(148,163,184,.3); border-radius: 12px; background: rgba(15,23,42,.65); }
+  #synthese .synthese-table td { padding: 9px 0; border-bottom: 1px solid rgba(148,163,184,.18); overflow-wrap: anywhere; white-space: normal; font-size: .93rem; line-height: 1.5; }
+  #synthese .synthese-table td:last-child { border-bottom: 0; }
+  #synthese .synthese-table td::before { display: block; margin-bottom: 3px; color: #93c5fd; font-size: .78rem; font-weight: 700; }
+  #synthese .synthese-table td:nth-child(1)::before { content: "N°"; }
+  #synthese .synthese-table td:nth-child(2)::before { content: "Situation / Projet"; }
+  #synthese .synthese-table td:nth-child(3)::before { content: "Cadre"; }
+  #synthese .synthese-table td:nth-child(4)::before { content: "Environnement / Technologies"; }
+  #synthese .synthese-table td:nth-child(5)::before { content: "Compétences mobilisées"; }
+  #synthese .synthese-table td:nth-child(6)::before { content: "Actions"; }
+}
