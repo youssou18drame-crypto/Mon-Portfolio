@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T20:35:22.185162+00:00",
+  "updated_at": "2026-11-19T07:29:47.260959+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "IA en entreprise : Databricks révèle l’essor des modèles ouverts et du multi-fournisseur",
-      "url": "https://www.lemondeinformatique.fr/donnees-ia/ia-en-entreprise-databricks-revele-l-essor-des-mod",
-      "summary": "Databricks dévoile son AI Index, un observatoire consacré à l’adoption, aux performances et aux coûts des modèles d’intelligence artificielle en entreprise. Fondée sur les données anonymisées de plus de 10 000 organisations utilisant Unity ",
-      "date": "2026-11-18T14:04:19+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Actualité : “Le pire modèle qu’OpenAI ait jamais sorti” : GPT-6.2 Astra, le nouveau cerveau de ChatGPT, se fait étriller",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/le-pire-modele-qu-openai-ait-jamais-sorti-gpt-6-2-astra-le-nouveau-cerveau-de-chatgpt-se-fait-etriller-n267956.html",
+      "summary": "Des notes de premier de la classe, un prix en baisse, des prouesses en 3D, puis une volée de bois vert. À peine lancée, la nouvelle intelligence artificielle star d'OpenAI se fait étriller par les développeurs qui l'ont testée en avant-prem",
+      "date": "2026-11-19T08:00:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "La Macif écope d’une amende de 5 millions d’euros : les mots de passe étaient laissés à la merci des pirates",
-      "url": "https://www.01net.com/actualites/macif-ecope-amende-5-millions-deuros-mots-passe-clients-etaient-stockes-sans-protection.html",
-      "summary": "La Cnil a infligé une amende de cinq millions d’euros à la Macif pour deux importants manquements au RGPD. L’entreprise assure avoir pris les mesures nécessaires et précise qu’aucune donnée de ses clients n’a été divulguée.",
-      "date": "2026-11-18T17:14:23+00:00",
+      "title": "Chrome croule sous les failles : Google déploie la troisième mise à jour de sécurité en huit jours",
+      "url": "https://www.01net.com/actualites/chrome-croule-sous-les-failles-google-deploie-la-troisieme-mise-a-jour-de-securite-en-huit-jours.html",
+      "summary": "Google vient de déployer une nouvelle mise à jour de Chrome qui corrige 204 failles de sécurité, dont six vulnérabilités critiques. C’est la troisième mise à jour de sécurité du navigateur en à peine plus d’une semaine. Cette cadence effrén",
+      "date": "2026-11-19T06:07:30+00:00",
       "source": "01net",
       "topic": "cybersecurite"
     }
