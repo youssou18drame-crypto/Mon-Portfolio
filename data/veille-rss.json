@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T07:29:47.260959+00:00",
+  "updated_at": "2026-11-19T20:41:19.492940+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Actualité : “Le pire modèle qu’OpenAI ait jamais sorti” : GPT-6.2 Astra, le nouveau cerveau de ChatGPT, se fait étriller",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/le-pire-modele-qu-openai-ait-jamais-sorti-gpt-6-2-astra-le-nouveau-cerveau-de-chatgpt-se-fait-etriller-n267956.html",
-      "summary": "Des notes de premier de la classe, un prix en baisse, des prouesses en 3D, puis une volée de bois vert. À peine lancée, la nouvelle intelligence artificielle star d'OpenAI se fait étriller par les développeurs qui l'ont testée en avant-prem",
-      "date": "2026-11-19T08:00:00+01:00",
-      "source": "Les Numériques",
+      "title": "Gemini 4 Neon : Google continue de dégainer de nouveaux modèles d’IA, au risque de vous embrouiller",
+      "url": "https://www.01net.com/actualites/gemini-4-neon-google-continue-de-degainer-de-nouveaux-modeles-dia-au-risque-de-vous-embrouiller.html",
+      "summary": "Google a lancé ce 18 novembre Gemini 4 Neon, le quatrième modèle basé sur Gemini 4 en moins de deux mois. Une multiplication qui s'explique par l'envie de Google de segmenter les usages et de diminuer les coûts. Au risque d'embrouiller les ",
+      "date": "2026-11-19T15:58:27+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "Chrome croule sous les failles : Google déploie la troisième mise à jour de sécurité en huit jours",
-      "url": "https://www.01net.com/actualites/chrome-croule-sous-les-failles-google-deploie-la-troisieme-mise-a-jour-de-securite-en-huit-jours.html",
-      "summary": "Google vient de déployer une nouvelle mise à jour de Chrome qui corrige 204 failles de sécurité, dont six vulnérabilités critiques. C’est la troisième mise à jour de sécurité du navigateur en à peine plus d’une semaine. Cette cadence effrén",
-      "date": "2026-11-19T06:07:30+00:00",
-      "source": "01net",
+      "title": "Anne Le Hénanff, ministre déléguée au numérique au « Monde » : en matière de cybersécurité, « il y a urgence pour la résilience de la Nation »",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/19/anne-le-henanff-en-matiere-de-cybersecurite-il-y-a-urgence-pour-la-resilience-de-la-nation_6813364_4408996.html",
+      "summary": "Après l’adoption à l’Assemblée d’une loi sur la cybersécurité très attendue, la ministre du numérique prévient que les 20 000 entreprises et entités publiques concernées par de nouvelles obligations en matière de sécurité auront deux ans po",
+      "date": "2026-11-19T18:00:10+00:00",
+      "source": "Le Monde IA",
       "topic": "cybersecurite"
     }
   ]
