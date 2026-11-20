@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T20:41:19.492940+00:00",
+  "updated_at": "2026-11-20T07:20:33.153696+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Gemini 4 Neon : Google continue de dégainer de nouveaux modèles d’IA, au risque de vous embrouiller",
-      "url": "https://www.01net.com/actualites/gemini-4-neon-google-continue-de-degainer-de-nouveaux-modeles-dia-au-risque-de-vous-embrouiller.html",
-      "summary": "Google a lancé ce 18 novembre Gemini 4 Neon, le quatrième modèle basé sur Gemini 4 en moins de deux mois. Une multiplication qui s'explique par l'envie de Google de segmenter les usages et de diminuer les coûts. Au risque d'embrouiller les ",
-      "date": "2026-11-19T15:58:27+00:00",
-      "source": "01net",
+      "title": "IA : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/20/intelligence-artificielle-l-action-anthropic-finit-sa-premiere-journee-en-hausse-de-17-et-valorise-l-entreprise-a-1-280-milliards-de-dollars_6813415_3234.html",
+      "summary": "L’introduction en Bourse spectaculaire du leader de l’Intelligence artificielle n’a pas empêché Wall Street de finir en forte baisse jeudi, sur fond de mouvement anti-IA et d’interrogations sur le modèle économique de ces sociétés.",
+      "date": "2026-11-19T23:30:54+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "Anne Le Hénanff, ministre déléguée au numérique au « Monde » : en matière de cybersécurité, « il y a urgence pour la résilience de la Nation »",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/19/anne-le-henanff-en-matiere-de-cybersecurite-il-y-a-urgence-pour-la-resilience-de-la-nation_6813364_4408996.html",
-      "summary": "Après l’adoption à l’Assemblée d’une loi sur la cybersécurité très attendue, la ministre du numérique prévient que les 20 000 entreprises et entités publiques concernées par de nouvelles obligations en matière de sécurité auront deux ans po",
-      "date": "2026-11-19T18:00:10+00:00",
-      "source": "Le Monde IA",
+      "title": "Son pedigree est déjà bien chargé : c’est quoi ARTEX, l’outil de piratage chinois utilisé contre la Commission européenne ?",
+      "url": "https://www.numerama.com/cyberguerre/2379121-son-pedigree-est-deja-bien-charge-cest-quoi-artex-loutil-de-piratage-chinois-utilise-contre-la-commission-europeenne.html",
+      "summary": "Selon Politico, les pirates qui perturbent depuis plus de dix jours les services internes de la Commission européenne se sont servis d’ARTEX, un outil d’intelligence artificielle développé en Chine.",
+      "date": "2026-11-19T17:00:45+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
