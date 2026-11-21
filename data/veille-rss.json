@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T07:13:58.555611+00:00",
+  "updated_at": "2026-11-21T19:19:33.046107+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,11 +36,11 @@
   ],
   "articles": [
     {
-      "title": "Actualité : Il termine premier d’un examen national avec 159 bonnes réponses sur 160, puis avoue avoir photographié les questions avec une caméra miniature pour",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/il-termine-premier-d-un-examen-national-avec-159-bonnes-reponses-sur-160-puis-avoue-avoir-photographie-les-questions-avec-une-camera-miniature-pour-les-envoyer-a-une-ia-n267791.html",
-      "summary": "En Corée du Sud, Han Won-seok a terminé premier d'un examen national très difficile avec 159 bonnes réponses sur 160. Sauf que voilà, l'homme de 34 ans avouera par la suite qu'il a triché avec une caméra miniature et une IA. Le gouvernement",
-      "date": "2026-11-20T22:30:00+01:00",
-      "source": "Les Numériques",
+      "title": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
+      "url": "https://www.lemonde.fr/sciences/article/2026/11/21/la-probable-resolution-de-l-hypothese-de-riemann-par-une-intelligence-artificielle-marque-une-bascule-pour-les-mathematiques_6813962_1650684.html",
+      "summary": "Un mathématicien d’Anthropic, Levent Alpöge, assisté de l’outil Claude de son employeur, assure avoir résolu l’une des plus célèbres hypothèses de la discipline. Posée en 1859 par Bernhard Riemann, elle permet de caractériser le comportemen",
+      "date": "2026-11-21T09:30:00+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
