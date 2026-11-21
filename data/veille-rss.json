@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:24:52.918309+00:00",
+  "updated_at": "2026-11-21T07:13:58.555611+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Le futur smartphone d’OpenAI aurait un point commun avec l’iPhone",
-      "url": "https://www.01net.com/actualites/le-futur-smartphone-dopenai-aurait-un-point-commun-avec-liphone.html",
-      "summary": "Pour assembler son téléphone centré autour de ChatGPT, OpenAI aurait fait appel à FIH Mobile, une filiale de Foxconn. Ce dernier nom vous dit quelque chose ? Il s'agit du groupe chargé d'assembler les iPhone.",
-      "date": "2026-11-20T16:01:08+00:00",
-      "source": "01net",
+      "title": "Actualité : Il termine premier d’un examen national avec 159 bonnes réponses sur 160, puis avoue avoir photographié les questions avec une caméra miniature pour",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/il-termine-premier-d-un-examen-national-avec-159-bonnes-reponses-sur-160-puis-avoue-avoir-photographie-les-questions-avec-une-camera-miniature-pour-les-envoyer-a-une-ia-n267791.html",
+      "summary": "En Corée du Sud, Han Won-seok a terminé premier d'un examen national très difficile avec 159 bonnes réponses sur 160. Sauf que voilà, l'homme de 34 ans avouera par la suite qu'il a triché avec une caméra miniature et une IA. Le gouvernement",
+      "date": "2026-11-20T22:30:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Les services de renseignement russes à l’origine d’une nouvelle campagne de phishing contre des journalistes et un député français",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/20/les-services-de-renseignement-russes-a-l-origine-d-une-nouvelle-campagne-de-phishing-contre-des-journalistes-et-un-depute-francais_6813640_4408996.html",
-      "summary": "Une unité du service fédéral de sécurité russe (FSB) multiplie depuis le début de l’année les tentatives d’hameçonnage sur les messageries Signal et Telegram, en Ukraine, aux Etats-Unis et en Europe.",
-      "date": "2026-11-20T13:26:20+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Cyberattaques en cours dans le « monde entier » : le FBI alerte sur une vague d’intrusions menées par ARTEX, une redoutable IA",
+      "url": "https://www.01net.com/actualites/cyberattaques-cours-monde-entier-fbi-alerte-vague-intrusions-menees-artex-redoutable-dopee-modeles-chinois.html",
+      "summary": "Le FBI tire la sonnette d'alarme. Partout dans le monde, des pirates mènent des cyberattaques en série grâce à ARTEX, un outil d'intelligence artificielle qui pirate presque tout seul. Branché le plus souvent sur des modèles chinois comme D",
+      "date": "2026-11-21T07:06:10+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
