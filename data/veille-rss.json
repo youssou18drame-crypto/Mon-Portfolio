@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:43:28.142943+00:00",
+  "updated_at": "2026-11-23T23:56:29.434816+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Mathématiques et IA : prenons le temps de comprendre",
-      "url": "https://www.lemonde.fr/sciences/article/2026/11/22/mathematiques-et-ia-prenons-le-temps-de-comprendre_6814234_1650684.html",
-      "summary": "Dans sa carte blanche au « Monde », le mathématicien et académicien Etienne Ghys prend acte de l’accélération que l’intelligence artificielle apporte à sa discipline. Mais il rappelle que les maths ne se réduisent pas à des résultats.",
-      "date": "2026-11-22T17:00:10+00:00",
-      "source": "Le Monde IA",
+      "title": "Il termine premier d’un examen national avec 159 bonnes réponses sur 160, puis avoue avoir photographié les questions avec une caméra miniature pour les envoyer",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/il-termine-premier-d-un-examen-national-avec-159-bonnes-reponses-sur-160-puis-avoue-avoir-photographie-les-questions-avec-une-camera-miniature-pour-les-envoyer-a-une-ia-301-n267791.html",
+      "summary": "En Corée du Sud, Han Won-seok a terminé premier d'un examen national très difficile avec 159 bonnes réponses sur 160. Sauf que voilà, l'homme de 34 ans avouera par la suite qu'il a triché avec une caméra miniature et une IA. Le gouvernement",
+      "date": "2026-11-23T20:00:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Guadeloupe : le CHU victime d’une « cyberattaque de grande ampleur », le plan blanc déclenché",
-      "url": "https://www.lemonde.fr/outre-mer/article/2026/11/22/guadeloupe-le-chu-victime-d-une-cyberattaque-de-grande-ampleur-le-plan-blanc-declenche_6814248_1840826.html",
-      "summary": "L’activité du centre hospitalier, dont le système d’information et la téléphonie sont très affectés, a été déprogrammée pour « la semaine qui vient » afin de privilégier « la prise en charge des patients déjà présents et des cas les plus ur",
-      "date": "2026-11-22T21:54:51+00:00",
-      "source": "Le Monde Pixels",
+      "title": "GTA 6 sur PC : une version pirate est en ligne, mais le jeu ne se lance pas encore",
+      "url": "https://www.numerama.com/tech/2382377-gta-6-sur-pc-une-version-pirate-des-aujourdhui.html",
+      "summary": "Le leaker Cyberleek a tenu parole : l'exécutable manquant de la build Xbox de GTA 6 est en ligne depuis le lundi 23 novembre. En moins de deux heures, le projet open source Leonida a commencé à le faire tourner sur PC. Le jeu n'affiche enco",
+      "date": "2026-11-23T16:06:02+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
