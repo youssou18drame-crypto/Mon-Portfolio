@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T19:43:51.539388+00:00",
+  "updated_at": "2026-11-23T07:43:28.142943+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -44,11 +44,11 @@
       "topic": "ia"
     },
     {
-      "title": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la s",
-      "url": "https://www.numerama.com/cyberguerre/2380113-grok-devoile-lentreprise-que-la-cnil-navait-pas-nommee-microsoft-detaille-sa-panne-geante-la-commission-europeenne-piratee-avec-artex-on-vous-raconte-la-semaine-cyberguerre.html",
-      "summary": "Trois actualités à retenir cette semaine dans le cyberespace, une sanction de la CNIL dont l’entreprise visée est restée anonyme moins d’une heure, la panne mondiale de Microsoft dont le rapport préliminaire explique pourquoi Teams a tenu p",
-      "date": "2026-11-22T17:12:00+00:00",
-      "source": "Numerama",
+      "title": "Guadeloupe : le CHU victime d’une « cyberattaque de grande ampleur », le plan blanc déclenché",
+      "url": "https://www.lemonde.fr/outre-mer/article/2026/11/22/guadeloupe-le-chu-victime-d-une-cyberattaque-de-grande-ampleur-le-plan-blanc-declenche_6814248_1840826.html",
+      "summary": "L’activité du centre hospitalier, dont le système d’information et la téléphonie sont très affectés, a été déprogrammée pour « la semaine qui vient » afin de privilégier « la prise en charge des patients déjà présents et des cas les plus ur",
+      "date": "2026-11-22T21:54:51+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
