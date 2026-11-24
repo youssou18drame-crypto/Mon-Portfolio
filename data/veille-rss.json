@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T23:56:29.434816+00:00",
+  "updated_at": "2026-11-24T09:57:30.671153+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "Il termine premier d’un examen national avec 159 bonnes réponses sur 160, puis avoue avoir photographié les questions avec une caméra miniature pour les envoyer",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/il-termine-premier-d-un-examen-national-avec-159-bonnes-reponses-sur-160-puis-avoue-avoir-photographie-les-questions-avec-une-camera-miniature-pour-les-envoyer-a-une-ia-301-n267791.html",
-      "summary": "En Corée du Sud, Han Won-seok a terminé premier d'un examen national très difficile avec 159 bonnes réponses sur 160. Sauf que voilà, l'homme de 34 ans avouera par la suite qu'il a triché avec une caméra miniature et une IA. Le gouvernement",
-      "date": "2026-11-23T20:00:00+01:00",
-      "source": "Les Numériques",
+      "title": "ZDNET Morning 24/11/2026 : Influence politique derrière la réintégration de Jensen Huang, Rétention cognitive et usage des IA, Google Chrome : six réglages clés",
+      "url": "https://www.zdnet.fr/actualites/zdnet-morning-24-11-2026-influence-politique-derriere-la-reintegration-de-jensen-huang-retention-cognitive-et-usage-des-ia-google-chrome-six-reglages-cles-pour-la-securite-508481.htm#xtor=RSS-1",
+      "summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
+      "date": "2026-11-24T10:11:27+00:00",
+      "source": "ZDNet France",
       "topic": "ia"
     },
     {
-      "title": "GTA 6 sur PC : une version pirate est en ligne, mais le jeu ne se lance pas encore",
-      "url": "https://www.numerama.com/tech/2382377-gta-6-sur-pc-une-version-pirate-des-aujourdhui.html",
-      "summary": "Le leaker Cyberleek a tenu parole : l'exécutable manquant de la build Xbox de GTA 6 est en ligne depuis le lundi 23 novembre. En moins de deux heures, le projet open source Leonida a commencé à le faire tourner sur PC. Le jeu n'affiche enco",
-      "date": "2026-11-23T16:06:02+00:00",
+      "title": "Ladybird, le navigateur qui veut affranchir le web de Google, est enfin là. Et son créateur veut qu’on le pirate",
+      "url": "https://www.numerama.com/tech/2383303-ladybird-le-navigateur-qui-veut-affranchir-le-web-de-google-est-enfin-la-et-son-createur-veut-quon-le-pirate.html",
+      "summary": "Le navigateur indépendant Ladybird est disponible en version d'essai depuis le 23 novembre 2026. Son créateur demande aux hackers d'y chercher des failles pour l'aider à le renforcer.",
+      "date": "2026-11-24T09:30:00+00:00",
       "source": "Numerama",
       "topic": "cybersecurite"
     }
