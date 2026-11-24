@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T09:57:30.671153+00:00",
+  "updated_at": "2026-11-24T22:29:06.444938+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "ZDNET Morning 24/11/2026 : Influence politique derrière la réintégration de Jensen Huang, Rétention cognitive et usage des IA, Google Chrome : six réglages clés",
-      "url": "https://www.zdnet.fr/actualites/zdnet-morning-24-11-2026-influence-politique-derriere-la-reintegration-de-jensen-huang-retention-cognitive-et-usage-des-ia-google-chrome-six-reglages-cles-pour-la-securite-508481.htm#xtor=RSS-1",
-      "summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
-      "date": "2026-11-24T10:11:27+00:00",
-      "source": "ZDNet France",
+      "title": "Un immense centre de données IA de Meta s’installe près de chez lui, il monte un business lucratif qui livre de l'eau aux ouvriers du chantier pour 21 900 € par",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/un-immense-centre-de-donnees-ia-de-meta-s-installe-pres-de-chez-lui-il-monte-un-business-lucratif-qui-livre-de-l-eau-aux-ouvriers-du-chantier-pour-21-900-par-semaine-n268473.html",
+      "summary": "David Rodgers habite près du chantier du plus grand centre de données IA de Meta en Louisiane. Lui est alors venu l’idée de fonder la société Ice Queen. Son business ? livrer de l'eau aux ouvriers du site. Et c’est très lucratif : les entre",
+      "date": "2026-11-24T23:15:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Ladybird, le navigateur qui veut affranchir le web de Google, est enfin là. Et son créateur veut qu’on le pirate",
-      "url": "https://www.numerama.com/tech/2383303-ladybird-le-navigateur-qui-veut-affranchir-le-web-de-google-est-enfin-la-et-son-createur-veut-quon-le-pirate.html",
-      "summary": "Le navigateur indépendant Ladybird est disponible en version d'essai depuis le 23 novembre 2026. Son créateur demande aux hackers d'y chercher des failles pour l'aider à le renforcer.",
-      "date": "2026-11-24T09:30:00+00:00",
-      "source": "Numerama",
+      "title": "« GTA VI » piraté : comment des hackeurs assistés par IA font la course pour adapter le jeu vidéo sur PC",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/24/gta-vi-pirate-comment-des-hackeurs-assistes-par-ia-font-la-course-pour-adapter-le-jeu-video-sur-pc_6814851_4408996.html",
+      "summary": "Des communautés de bidouilleurs travaillent à rendre le jeu de Rockstar Games, disponible uniquement sur console, jouable sur PC. Les pirates de Cyberleek, qui ont illégalement diffusé une version Xbox Series du jeu dès sa sortie, leur ont ",
+      "date": "2026-11-24T20:48:06+00:00",
+      "source": "Le Monde IA",
       "topic": "cybersecurite"
     }
   ]
