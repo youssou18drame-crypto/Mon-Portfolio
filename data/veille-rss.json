@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:40:13.508980+00:00",
+  "updated_at": "2026-11-25T21:44:11.092820+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "29 millions de morceaux supprimés : Tidal bannit la musique générée par IA",
-      "url": "https://www.01net.com/actualites/29-millions-de-morceaux-supprimes-tidal-bannit-la-musique-generee-par-ia.html",
-      "summary": "Tidal croule sous la musique générée par intelligence artificielle. Face à ce fléau, la plate-forme de musique en streaming vient d’annoncer un bannissement total des morceaux générés par IA.",
-      "date": "2026-11-25T08:27:53+00:00",
-      "source": "01net",
+      "title": "CrowdStrike et Zscaler veulent un kill switch unifié pour les agents IA",
+      "url": "https://www.lemondeinformatique.fr/donnees-ia/crowdstrike-et-zscaler-veulent-un-kill-switch-unifie-pour-les-agents-ia",
+      "summary": "Le rachat de Zscaler par CrowdStrike doit permettre d'étendre au réseau le dispositif de coupure des agents IA malveillants ou incontrôlés, aujourd'hui limité aux terminaux. Annoncé le 23 novembre 2026, cet accord, qui valorise Zscaler à 43",
+      "date": "2026-11-25T14:37:21+00:00",
+      "source": "Le Monde Informatique",
       "topic": "ia"
     },
     {
-      "title": "Cyberattaques dopées à l’IA : IBM appelle les entreprises à anticiper les défaillances",
-      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
-      "summary": "Face à l’accélération des cyberattaques liée à l’intelligence artificielle, les entreprises doivent revoir leurs stratégies de cybersécurité. Pour Mark Hughes, responsable mondial des services de cybersécurité d’IBM Consulting, les attaquan",
-      "date": "2026-11-25T07:30:00+00:00",
-      "source": "Le Monde Informatique",
+      "title": "La menace s’étend : le système OSINT de la CIA piraté, probablement par le même outil IA que la Commission européenne",
+      "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
+      "summary": "Selon le New York Times, des pirates ont compromis un système d'analyse en sources ouvertes de la CIA. Deux autres agences de renseignement américaines auraient été touchées.",
+      "date": "2026-11-25T12:10:00+00:00",
+      "source": "Numerama",
       "topic": "cybersecurite"
     }
   ]
