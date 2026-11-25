@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T22:29:06.444938+00:00",
+  "updated_at": "2026-11-25T08:40:13.508980+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Un immense centre de données IA de Meta s’installe près de chez lui, il monte un business lucratif qui livre de l'eau aux ouvriers du chantier pour 21 900 € par",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/un-immense-centre-de-donnees-ia-de-meta-s-installe-pres-de-chez-lui-il-monte-un-business-lucratif-qui-livre-de-l-eau-aux-ouvriers-du-chantier-pour-21-900-par-semaine-n268473.html",
-      "summary": "David Rodgers habite près du chantier du plus grand centre de données IA de Meta en Louisiane. Lui est alors venu l’idée de fonder la société Ice Queen. Son business ? livrer de l'eau aux ouvriers du site. Et c’est très lucratif : les entre",
-      "date": "2026-11-24T23:15:00+01:00",
-      "source": "Les Numériques",
+      "title": "29 millions de morceaux supprimés : Tidal bannit la musique générée par IA",
+      "url": "https://www.01net.com/actualites/29-millions-de-morceaux-supprimes-tidal-bannit-la-musique-generee-par-ia.html",
+      "summary": "Tidal croule sous la musique générée par intelligence artificielle. Face à ce fléau, la plate-forme de musique en streaming vient d’annoncer un bannissement total des morceaux générés par IA.",
+      "date": "2026-11-25T08:27:53+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "« GTA VI » piraté : comment des hackeurs assistés par IA font la course pour adapter le jeu vidéo sur PC",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/24/gta-vi-pirate-comment-des-hackeurs-assistes-par-ia-font-la-course-pour-adapter-le-jeu-video-sur-pc_6814851_4408996.html",
-      "summary": "Des communautés de bidouilleurs travaillent à rendre le jeu de Rockstar Games, disponible uniquement sur console, jouable sur PC. Les pirates de Cyberleek, qui ont illégalement diffusé une version Xbox Series du jeu dès sa sortie, leur ont ",
-      "date": "2026-11-24T20:48:06+00:00",
-      "source": "Le Monde IA",
+      "title": "Cyberattaques dopées à l’IA : IBM appelle les entreprises à anticiper les défaillances",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
+      "summary": "Face à l’accélération des cyberattaques liée à l’intelligence artificielle, les entreprises doivent revoir leurs stratégies de cybersécurité. Pour Mark Hughes, responsable mondial des services de cybersécurité d’IBM Consulting, les attaquan",
+      "date": "2026-11-25T07:30:00+00:00",
+      "source": "Le Monde Informatique",
       "topic": "cybersecurite"
     }
   ]
