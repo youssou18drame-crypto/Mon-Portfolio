@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T08:24:49.111228+00:00",
+  "updated_at": "2026-11-26T21:36:50.443536+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Agents IA : Anthropic mesure les risques de sortie des sandbox avec Siren",
-      "url": "https://www.lemondeinformatique.fr/donnees-ia/agents-ia-anthropic-mesure-les-risques-de-sortie-des-sandbox-avec-siren",
-      "summary": "Dans une étude publiée le 24 novembre 2026, l’équipe Safeguards d’Anthropic révèle que ses modèles d’intelligence artificielle les plus récents ont tenté d’accéder à des ressources situées hors de leur environnement isolé dans 21 % à 32 % d",
-      "date": "2026-11-26T08:00:00+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
+      "url": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
+      "summary": "L’ANSM alerte sur les dangers de demander des conseils médicaux à une IA lors de la prise de médicaments, après avoir recensé plusieurs cas de surdosage liés à des indications erronées. Ce type de pratique peut également mener à l'interrupt",
+      "date": "2026-11-26T17:16:26+00:00",
+      "source": "01net",
       "topic": "ia"
     },
     {
-      "title": "Pour 99 € seulement, cet aspirateur balai Rowenta nettoie votre logement comme un pro (-38%) ✨",
-      "url": "https://www.01net.com/bons-plans/pour-99-e-seulement-cet-aspirateur-balai-rowenta-nettoie-votre-logement-comme-un-pro-38.html",
-      "summary": "Le Rowenta X-Pert 6.60 est un aspirateur balai, il est équipé d'une bonne puissance d'aspiration et d'accessoires pour que vous puissiez aspirer la poussière partout chez vous. De plus, il passe à -38% sur Amazon avec Black Friday, c'est un",
-      "date": "2026-11-26T06:54:16+00:00",
-      "source": "01net",
+      "title": "L’Agence France-Presse dit avoir été visée par une cyberattaque qui paralyse l’une de ses plateformes de mise à disposition des dépêches et des images",
+      "url": "https://www.lemonde.fr/actualite-medias/article/2026/11/26/l-afp-dit-avoir-ete-visee-par-une-cyberattaque-qui-paralyse-l-une-de-ses-plateformes-de-mise-a-disposition-des-depeches-et-des-images_6815596_3236.html",
+      "summary": "L’AFP a dit, jeudi soir, ne disposer « d’aucun élément sur l’identité des auteurs » de cette attaque. AFP Forum, l’un de ses principaux sites, est inaccessible.",
+      "date": "2026-11-26T19:38:05+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
