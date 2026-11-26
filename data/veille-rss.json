@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T21:44:11.092820+00:00",
+  "updated_at": "2026-11-26T08:24:49.111228+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "CrowdStrike et Zscaler veulent un kill switch unifié pour les agents IA",
-      "url": "https://www.lemondeinformatique.fr/donnees-ia/crowdstrike-et-zscaler-veulent-un-kill-switch-unifie-pour-les-agents-ia",
-      "summary": "Le rachat de Zscaler par CrowdStrike doit permettre d'étendre au réseau le dispositif de coupure des agents IA malveillants ou incontrôlés, aujourd'hui limité aux terminaux. Annoncé le 23 novembre 2026, cet accord, qui valorise Zscaler à 43",
-      "date": "2026-11-25T14:37:21+00:00",
+      "title": "Agents IA : Anthropic mesure les risques de sortie des sandbox avec Siren",
+      "url": "https://www.lemondeinformatique.fr/donnees-ia/agents-ia-anthropic-mesure-les-risques-de-sortie-des-sandbox-avec-siren",
+      "summary": "Dans une étude publiée le 24 novembre 2026, l’équipe Safeguards d’Anthropic révèle que ses modèles d’intelligence artificielle les plus récents ont tenté d’accéder à des ressources situées hors de leur environnement isolé dans 21 % à 32 % d",
+      "date": "2026-11-26T08:00:00+00:00",
       "source": "Le Monde Informatique",
       "topic": "ia"
     },
     {
-      "title": "La menace s’étend : le système OSINT de la CIA piraté, probablement par le même outil IA que la Commission européenne",
-      "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
-      "summary": "Selon le New York Times, des pirates ont compromis un système d'analyse en sources ouvertes de la CIA. Deux autres agences de renseignement américaines auraient été touchées.",
-      "date": "2026-11-25T12:10:00+00:00",
-      "source": "Numerama",
+      "title": "Pour 99 € seulement, cet aspirateur balai Rowenta nettoie votre logement comme un pro (-38%) ✨",
+      "url": "https://www.01net.com/bons-plans/pour-99-e-seulement-cet-aspirateur-balai-rowenta-nettoie-votre-logement-comme-un-pro-38.html",
+      "summary": "Le Rowenta X-Pert 6.60 est un aspirateur balai, il est équipé d'une bonne puissance d'aspiration et d'accessoires pour que vous puissiez aspirer la poussière partout chez vous. De plus, il passe à -38% sur Amazon avec Black Friday, c'est un",
+      "date": "2026-11-26T06:54:16+00:00",
+      "source": "01net",
       "topic": "cybersecurite"
     }
   ]
