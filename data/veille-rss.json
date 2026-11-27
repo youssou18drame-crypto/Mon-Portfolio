@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T21:36:50.443536+00:00",
+  "updated_at": "2026-11-27T08:39:34.195743+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
-      "url": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
-      "summary": "L’ANSM alerte sur les dangers de demander des conseils médicaux à une IA lors de la prise de médicaments, après avoir recensé plusieurs cas de surdosage liés à des indications erronées. Ce type de pratique peut également mener à l'interrupt",
-      "date": "2026-11-26T17:16:26+00:00",
-      "source": "01net",
+      "title": "Votre IA du quotidien a un coût humain : sa pollution a fait 650 morts en un an, souvent loin des data centers",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/votre-ia-du-quotidien-a-un-cout-humain-sa-pollution-a-fait-650-morts-en-un-an-souvent-loin-des-data-centers-n268743.html",
+      "summary": "Une question à ChatGPT, une vidéo en streaming, une photo envoyée dans le cloud : chacun de ces gestes fait tourner des data centers, et leur électricité a un prix. Aux États-Unis, une étude du MIT attribue environ 650 morts prématurées en ",
+      "date": "2026-11-27T08:00:00+01:00",
+      "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "L’Agence France-Presse dit avoir été visée par une cyberattaque qui paralyse l’une de ses plateformes de mise à disposition des dépêches et des images",
-      "url": "https://www.lemonde.fr/actualite-medias/article/2026/11/26/l-afp-dit-avoir-ete-visee-par-une-cyberattaque-qui-paralyse-l-une-de-ses-plateformes-de-mise-a-disposition-des-depeches-et-des-images_6815596_3236.html",
-      "summary": "L’AFP a dit, jeudi soir, ne disposer « d’aucun élément sur l’identité des auteurs » de cette attaque. AFP Forum, l’un de ses principaux sites, est inaccessible.",
-      "date": "2026-11-26T19:38:05+00:00",
-      "source": "Le Monde Pixels",
+      "title": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
+      "summary": "L'Agence France-Presse (AFP) a été victime d'une cyberattaque dans la nuit du 25 au 26 novembre 2026. L'intrusion a conduit l'agence à suspendre temporairement l'accès à AFP Forum, une plateforme utilisée par ses clients pour consulter et t",
+      "date": "2026-11-27T08:27:48+00:00",
+      "source": "Le Monde Informatique",
       "topic": "cybersecurite"
     }
   ]
