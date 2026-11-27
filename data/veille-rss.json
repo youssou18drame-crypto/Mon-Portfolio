@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:39:34.195743+00:00",
+  "updated_at": "2026-11-27T21:21:01.947179+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,18 +36,18 @@
   ],
   "articles": [
     {
-      "title": "Votre IA du quotidien a un coût humain : sa pollution a fait 650 morts en un an, souvent loin des data centers",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/votre-ia-du-quotidien-a-un-cout-humain-sa-pollution-a-fait-650-morts-en-un-an-souvent-loin-des-data-centers-n268743.html",
-      "summary": "Une question à ChatGPT, une vidéo en streaming, une photo envoyée dans le cloud : chacun de ces gestes fait tourner des data centers, et leur électricité a un prix. Aux États-Unis, une étude du MIT attribue environ 650 morts prématurées en ",
-      "date": "2026-11-27T08:00:00+01:00",
+      "title": "Près de 20 ans après la sortie de ces anciennes cartes graphiques AMD, une IA aide enfin à corriger un bug qui corrompait la lecture des vidéos sous Linux",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/pres-de-20-ans-apres-la-sortie-de-ces-anciennes-cartes-graphiques-amd-une-ia-aide-enfin-a-corriger-un-bug-qui-corrompait-la-lecture-des-videos-sous-linux-n268841.html",
+      "summary": "Le développeur Ted Bullock a trouvé une solution à un bug qui touchait la lecture des vidéos sous Linux sur son ancien iMac de 2007. Et pour corriger ce problème qui concerne plusieurs cartes graphiques des séries Radeon HD 2000 et HD 3000 ",
+      "date": "2026-11-27T21:30:00+01:00",
       "source": "Les Numériques",
       "topic": "ia"
     },
     {
-      "title": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
-      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
-      "summary": "L'Agence France-Presse (AFP) a été victime d'une cyberattaque dans la nuit du 25 au 26 novembre 2026. L'intrusion a conduit l'agence à suspendre temporairement l'accès à AFP Forum, une plateforme utilisée par ses clients pour consulter et t",
-      "date": "2026-11-27T08:27:48+00:00",
+      "title": "Cyberattaques en série, les systèmes IT sous pression",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-en-serie-es-systemes-it-sous-pression",
+      "summary": "Cloud militaire américain, infrastructures critiques suisses, administration britannique, SAP et AFP ont été touchés par des incidents de sécurité ces derniers jours. Ces attaques mettent en évidence la diversité des cibles et la fragilité ",
+      "date": "2026-11-27T15:24:08+00:00",
       "source": "Le Monde Informatique",
       "topic": "cybersecurite"
     }
