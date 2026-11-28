@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T21:21:01.947179+00:00",
+  "updated_at": "2026-11-28T07:54:18.829050+00:00",
   "feeds": [
     {
       "name": "Le Monde Informatique",
@@ -36,19 +36,19 @@
   ],
   "articles": [
     {
-      "title": "Près de 20 ans après la sortie de ces anciennes cartes graphiques AMD, une IA aide enfin à corriger un bug qui corrompait la lecture des vidéos sous Linux",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/pres-de-20-ans-apres-la-sortie-de-ces-anciennes-cartes-graphiques-amd-une-ia-aide-enfin-a-corriger-un-bug-qui-corrompait-la-lecture-des-videos-sous-linux-n268841.html",
-      "summary": "Le développeur Ted Bullock a trouvé une solution à un bug qui touchait la lecture des vidéos sous Linux sur son ancien iMac de 2007. Et pour corriger ce problème qui concerne plusieurs cartes graphiques des séries Radeon HD 2000 et HD 3000 ",
-      "date": "2026-11-27T21:30:00+01:00",
-      "source": "Les Numériques",
+      "title": "L’IA, tremblement de terre dans les formations de création littéraire : « Dans quelle mesure l’utiliser me dépossède de mon œuvre ? »",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/28/l-ia-tremblement-de-terre-dans-les-formations-de-creation-litteraire-dans-quelle-mesure-l-utiliser-me-depossede-de-mon-uvre_6816074_4401467.html",
+      "summary": "Alors que les controverses sur l’usage des intelligences artificielles génératives secouent le monde de l’édition, les formations en création littéraire et métiers du livre cherchent leur posture, entre rejet critique et sensibilisation pra",
+      "date": "2026-11-28T06:00:09+00:00",
+      "source": "Le Monde IA",
       "topic": "ia"
     },
     {
-      "title": "Cyberattaques en série, les systèmes IT sous pression",
-      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-en-serie-es-systemes-it-sous-pression",
-      "summary": "Cloud militaire américain, infrastructures critiques suisses, administration britannique, SAP et AFP ont été touchés par des incidents de sécurité ces derniers jours. Ces attaques mettent en évidence la diversité des cibles et la fragilité ",
-      "date": "2026-11-27T15:24:08+00:00",
-      "source": "Le Monde Informatique",
+      "title": "Le Pentagone assure que ses systèmes informatiques sont « sûrs et sécurisés », après une possible cyberattaque annoncée par des médias",
+      "url": "https://www.lemonde.fr/international/article/2026/11/28/le-pentagone-assure-que-ses-systemes-informatiques-sont-surs-et-securises-apres-une-possible-cyberattaque-annoncee-par-des-medias_6816072_3210.html",
+      "summary": "L’agence Reuters puis NBC News ont avancé que le cloud de l’armée de l’air avait été piraté, exposant possiblement « des informations militaires sensibles ».",
+      "date": "2026-11-28T05:30:17+00:00",
+      "source": "Le Monde Pixels",
       "topic": "cybersecurite"
     }
   ]
